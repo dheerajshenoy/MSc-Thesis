@@ -1,0 +1,85 @@
+\message{ !name(main.tex)}\documentclass[12pt]{article}
+
+\include{includes}
+
+\addbibresource{references.bib}
+
+\setlength{\parindent}{1cm}
+\graphicspath{{../images/}}
+
+\renewcommand*{\bibfont}{\footnotesize}
+\renewcommand{\refname}{\fontseries{m}\selectfont References}
+
+\DeclareCiteCommand{\citep}
+{\usebibmacro{prenote}}
+{\mkbibparens{\textbf{\usebibmacro{cite}}}}
+{\multicitedelim}
+{\usebibmacro{postnote}}
+
+\def \projectname {Investigating Temperature Variations of the Solar Corona during CMEs}
+\def \auth {V. Dheeraj Shenoy}
+\def \gnameOne {Mr. Sundar M. N.}
+\def \gnameTwo {Dr. Tanmoy Samanta}
+\def \director {Dr. Asha Rajiv}
+\def \hod {Dr. Sudhakara Reddy}
+\def \mdot {$M_\odot$ }
+
+\linespread{1.5} % Set line spacing to 1.5 times
+
+\DeclareLabeldate{%
+  \field{date}
+  \field{year}
+  \field{eventdate}
+  \field{origdate}
+  \field{urldate}
+}
+
+
+\begin{document}
+
+\message{ !name(methodology.tex) !offset(-40) }
+\section{Methodology}
+
+In this study, we wish to find a method of detecting signatures of CMEs on the Sun by converting it to a point source (from now on I'll refer to this as `\textbf{Pointifying}') and then inspecting if the signatures of the CMEs exist after the conversion and is similar to what is was before the conversion. ``Pointifying'' the Sun roughly translates to converting Sun to a star, or placing our Sun to a place that's distant from Earth/observer in comparison to the distance between us and the Sun, defined as astronomical unit (1 AU \approx $1.496\times10^{8}$ km) such that it appears as a point source. We then analyse and compare the irradiance from the point source Sun and the full disk Sun using DEM to see if they show similar signatures of CMEs.\\
+
+Typically, Sun-as-a-star analysis involves selecting a region of interest on the surface of the Sun, considering this as the only region that affects the event under study, and assuming that there is no activity on the rest of the Sun, and then integrating the parameter of interest over the entire Solar disk. This is again a rough approximation to  an actual star.\\
+
+In the following section, we discuss about the Event selection, Data used for the study, Analysis method and finally the results and conclusion.
+
+\subsection{Event Selection}
+
+We have chosen three CME events that took place on 2011 August 04, 2012 August 31 and 2021 October 28.\\
+
+\begin{enumerate}
+
+        \item \textbf{2011 August 04}: This event has been refered from \citep{Mason2016} in which it is the \nth{20} Event. The event started at around 04:12 UT.\\
+
+        \item \textbf{2012 August 31}: This CME event was associated with a long filament eruption and it erupted around 19:49 UT.\\
+
+        \item \textbf{2021 October 28}: This is an example for rarely occuring `ground level enhancement' event. During such an event, particles from the Sun are energetic enough to pass through the magnetic sheath that surrounds Earth and protects us from low energy solar outbursts. This was only the 73rd ground level enhancement since records began in the 1940s, and none have been recorded since \citep{Klein2022}. The event occured around 15:17 UT.\\
+
+\end{enumerate}
+
+We have used 10 hours of data for the first two events, and about 7 hours of data for the third event. All three event data are at 2 minute cadence.
+
+\subsection{Data}
+
+The data we have used is from NASA's Solar Dynamics Observatory's (SDO), Atmospheric Imaging Assembly (AIA). It images the solar atmosphere in multiple wavelengths to link changes in the surface to interior changes. Data includes images of the Sun in 10 wavelengths every 10 seconds.
+
+
+
+
+
+%%% Local Variables:
+%%% mode: LaTeX
+%%% TeX-master: "main"
+%%% End:
+
+\message{ !name(main.tex) !offset(35) }
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: LaTeX
+%%% TeX-master: t
+%%% End:

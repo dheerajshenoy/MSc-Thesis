@@ -1,0 +1,1411 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.24)  27 MAR 2024 00:43
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\c@figure=\count194
+\c@table=\count195
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+
+LaTeX Warning: \include should only be used after \begin{document} on input lin
+e 3.
+
+(./includes.tex (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+)
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count196
+\Gm@cntv=\count197
+\c@Gm@tempcnt=\count198
+\Gm@bindingoffset=\dimen143
+\Gm@wd@mp=\dimen144
+\Gm@odd@mp=\dimen145
+\Gm@even@mp=\dimen146
+\Gm@layoutwidth=\dimen147
+\Gm@layoutheight=\dimen148
+\Gm@layouthoffset=\dimen149
+\Gm@layoutvoffset=\dimen150
+\Gm@dimlist=\toks18
+)
+(/usr/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen151
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen152
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count199
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count266
+\leftroot@=\count267
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count268
+\DOTSCASE@=\count269
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen153
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count270
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count271
+\dotsspace@=\muskip17
+\c@parentequation=\count272
+\dspbrk@lvl=\count273
+\tag@help=\toks20
+\row@=\count274
+\column@=\count275
+\maxfields@=\count276
+\andhelp@=\toks21
+\eqnshift@=\dimen154
+\alignsep@=\dimen155
+\tagshift@=\dimen156
+\tagwidth@=\dimen157
+\totwidth@=\dimen158
+\lineht@=\dimen159
+\@envbody=\toks22
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(/usr/share/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+)
+(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
+
+(/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count277
+)
+(/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+(/usr/share/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count278
+
+(/usr/share/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count279
+\c@listtotal=\count280
+\c@listcount=\count281
+\c@liststart=\count282
+\c@liststop=\count283
+\c@citecount=\count284
+\c@citetotal=\count285
+\c@multicitecount=\count286
+\c@multicitetotal=\count287
+\c@instcount=\count288
+\c@maxnames=\count289
+\c@minnames=\count290
+\c@maxitems=\count291
+\c@minitems=\count292
+\c@citecounter=\count293
+\c@maxcitecounter=\count294
+\c@savedcitecounter=\count295
+\c@uniquelist=\count296
+\c@uniquename=\count297
+\c@refsection=\count298
+\c@refsegment=\count299
+\c@maxextratitle=\count300
+\c@maxextratitleyear=\count301
+\c@maxextraname=\count302
+\c@maxextradate=\count303
+\c@maxextraalpha=\count304
+\c@abbrvpenalty=\count305
+\c@highnamepenalty=\count306
+\c@lownamepenalty=\count307
+\c@maxparens=\count308
+\c@parenlevel=\count309
+\blx@tempcnta=\count310
+\blx@tempcntb=\count311
+\blx@tempcntc=\count312
+\c@blx@maxsection=\count313
+\blx@maxsegment@0=\count314
+\blx@notetype=\count315
+\blx@parenlevel@text=\count316
+\blx@parenlevel@foot=\count317
+\blx@sectionciteorder@0=\count318
+\blx@sectionciteorderinternal@0=\count319
+\blx@entrysetcounter=\count320
+\blx@biblioinstance=\count321
+\labelnumberwidth=\skip53
+\labelalphawidth=\skip54
+\biblabelsep=\skip55
+\bibitemsep=\skip56
+\bibnamesep=\skip57
+\bibinitsep=\skip58
+\bibparsep=\skip59
+\bibhang=\skip60
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\blx@langwohyphens=\language5
+\c@mincomprange=\count322
+\c@maxcomprange=\count323
+\c@mincompwidth=\count324
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'apa.dbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex-apa/apa.dbx
+File: apa.dbx 2023/03/20 v9.17 APA biblatex style data model
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count325
+\c@savedafterword=\count326
+\c@annotator=\count327
+\c@savedannotator=\count328
+\c@author=\count329
+\c@savedauthor=\count330
+\c@bookauthor=\count331
+\c@savedbookauthor=\count332
+\c@commentator=\count333
+\c@savedcommentator=\count334
+\c@editor=\count335
+\c@savededitor=\count336
+\c@editora=\count337
+\c@savededitora=\count338
+\c@editorb=\count339
+\c@savededitorb=\count340
+\c@editorc=\count341
+\c@savededitorc=\count342
+\c@foreword=\count343
+\c@savedforeword=\count344
+\c@holder=\count345
+\c@savedholder=\count346
+\c@introduction=\count347
+\c@savedintroduction=\count348
+\c@namea=\count349
+\c@savednamea=\count350
+\c@nameb=\count351
+\c@savednameb=\count352
+\c@namec=\count353
+\c@savednamec=\count354
+\c@translator=\count355
+\c@savedtranslator=\count356
+\c@shortauthor=\count357
+\c@savedshortauthor=\count358
+\c@shorteditor=\count359
+\c@savedshorteditor=\count360
+\c@narrator=\count361
+\c@savednarrator=\count362
+\c@execproducer=\count363
+\c@savedexecproducer=\count364
+\c@execdirector=\count365
+\c@savedexecdirector=\count366
+\c@with=\count367
+\c@savedwith=\count368
+\c@labelname=\count369
+\c@savedlabelname=\count370
+\c@institution=\count371
+\c@savedinstitution=\count372
+\c@lista=\count373
+\c@savedlista=\count374
+\c@listb=\count375
+\c@savedlistb=\count376
+\c@listc=\count377
+\c@savedlistc=\count378
+\c@listd=\count379
+\c@savedlistd=\count380
+\c@liste=\count381
+\c@savedliste=\count382
+\c@listf=\count383
+\c@savedlistf=\count384
+\c@location=\count385
+\c@savedlocation=\count386
+\c@organization=\count387
+\c@savedorganization=\count388
+\c@origlocation=\count389
+\c@savedoriglocation=\count390
+\c@origpublisher=\count391
+\c@savedorigpublisher=\count392
+\c@publisher=\count393
+\c@savedpublisher=\count394
+\c@language=\count395
+\c@savedlanguage=\count396
+\c@origlanguage=\count397
+\c@savedoriglanguage=\count398
+\c@citation=\count399
+\c@savedcitation=\count400
+\c@pageref=\count401
+\c@savedpageref=\count402
+\shorthandwidth=\skip61
+\shortjournalwidth=\skip62
+\shortserieswidth=\skip63
+\shorttitlewidth=\skip64
+\shortauthorwidth=\skip65
+\shorteditorwidth=\skip66
+\locallabelnumberwidth=\skip67
+\locallabelalphawidth=\skip68
+\localshorthandwidth=\skip69
+\localshortjournalwidth=\skip70
+\localshortserieswidth=\skip71
+\localshorttitlewidth=\skip72
+\localshortauthorwidth=\skip73
+\localshorteditorwidth=\skip74
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+\c@textcitecount=\count403
+\c@textcitetotal=\count404
+\c@textcitemaxnames=\count405
+\c@biburlbigbreakpenalty=\count406
+\c@biburlbreakpenalty=\count407
+\c@biburlnumpenalty=\count408
+\c@biburlucpenalty=\count409
+\c@biburllcpenalty=\count410
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count411
+)
+Package biblatex Info: Trying to load bibliography style 'apa'...
+Package biblatex Info: ... file 'apa.bbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex-apa/apa.bbx
+File: apa.bbx 2023/03/20 v9.17 APA biblatex references style
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count412
+\c@bbx:relatedtotal=\count413
+)
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defin
+ed, overwriting.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already d
+efined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'bib' already def
+ined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'biblist' already
+ defined, overwriting.
+)
+Package biblatex Info: Trying to load citation style 'apa'...
+Package biblatex Info: ... file 'apa.cbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex-apa/apa.cbx
+File: apa.cbx 2023/03/20 v9.17 APA biblatex citation style
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting.
+Package biblatex Info: Delimiter 'andothersdelim' in context '' already defined
+, overwriting.
+Package biblatex Info: Redefining '\fullcite'.
+Package biblatex Info: Redefining '\citeauthor'.
+Package biblatex Info: Redefining '\citeyear'.
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcites'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\footcitetexts'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\smartcites'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-02-20 L3 programming layer (loader) 
+
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count414
+\l__pdf_internal_box=\box53
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2024-02-20 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-02-18 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
+))
+(/usr/share/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2024-02-15 v3.3.12 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count415
+\l__siunitx_number_exponent_fixed_int=\count416
+\l__siunitx_number_min_decimal_int=\count417
+\l__siunitx_number_min_integer_int=\count418
+\l__siunitx_number_round_precision_int=\count419
+\l__siunitx_number_lower_threshold_int=\count420
+\l__siunitx_number_upper_threshold_int=\count421
+\l__siunitx_number_group_first_int=\count422
+\l__siunitx_number_group_size_int=\count423
+\l__siunitx_number_group_minimum_int=\count424
+\l__siunitx_angle_tmp_dim=\dimen160
+\l__siunitx_angle_marker_box=\box54
+\l__siunitx_angle_unit_box=\box55
+\l__siunitx_compound_count_int=\count425
+
+(/usr/share/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+)
+\l__siunitx_table_tmp_box=\box56
+\l__siunitx_table_tmp_dim=\dimen161
+\l__siunitx_table_column_width_dim=\dimen162
+\l__siunitx_table_integer_box=\box57
+\l__siunitx_table_decimal_box=\box58
+\l__siunitx_table_uncert_box=\box59
+\l__siunitx_table_before_box=\box60
+\l__siunitx_table_after_box=\box61
+\l__siunitx_table_before_dim=\dimen163
+\l__siunitx_table_carry_dim=\dimen164
+\l__siunitx_unit_tmp_int=\count426
+\l__siunitx_unit_position_int=\count427
+\l__siunitx_unit_total_int=\count428
+
+(/usr/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen165
+\ar@mcellbox=\box62
+\extrarowheight=\dimen166
+\NC@list=\toks24
+\extratabsurround=\skip75
+\backup@length=\skip76
+\ar@cellbox=\box63
+))
+(/usr/share/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+(/usr/share/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(/usr/share/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+(/usr/share/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen167
+\c@nlinenum=\count429
+\TeXr@lab=\toks25
+)
+(/usr/share/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/usr/share/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen168
+\captionmargin=\dimen169
+\caption@leftmargin=\dimen170
+\caption@rightmargin=\dimen171
+\caption@width=\dimen172
+\caption@indent=\dimen173
+\caption@parindent=\dimen174
+\caption@hangindent=\dimen175
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count430
+\c@continuedfloat=\count431
+)
+(/usr/share/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+)
+(/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip77
+\enit@outerparindent=\dimen176
+\enit@toks=\toks26
+\enit@inbox=\box64
+\enit@count@id=\count432
+\enitdp@description=\count433
+)
+(/usr/share/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks27
+\XKV@tempa@toks=\toks28
+)
+\XKV@depth=\count434
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/share/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(/usr/share/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box65
+)
+\tc@llx=\dimen177
+\tc@lly=\dimen178
+\tc@urx=\dimen179
+\tc@ury=\dimen180
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/usr/share/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen181
+\adjbox@Height=\dimen182
+\adjbox@Depth=\dimen183
+\adjbox@Totalheight=\dimen184
+\adjbox@pwidth=\dimen185
+\adjbox@pheight=\dimen186
+\adjbox@pdepth=\dimen187
+\adjbox@ptotalheight=\dimen188
+
+(/usr/share/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count435
+)
+(/usr/share/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box66
+\sift@deathcycles=\count436
+\@vwid@loff=\dimen189
+\@vwid@roff=\dimen190
+))
+(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+
+(/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count437
+)
+\@linkdim=\dimen191
+\Hy@linkcounter=\count438
+\Hy@pagecounter=\count439
+
+(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count440
+
+(/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4179.
+Package hyperref Info: Link nesting OFF on input line 4184.
+Package hyperref Info: Hyper index ON on input line 4187.
+Package hyperref Info: Plain pages OFF on input line 4194.
+Package hyperref Info: Backreferencing OFF on input line 4199.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4446.
+\c@Hy@tempcnt=\count441
+LaTeX Info: Redefining \url on input line 4784.
+\XeTeXLinkMargin=\dimen192
+
+(/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count442
+\Field@Width=\dimen193
+\Fld@charsize=\dimen194
+Package hyperref Info: Hyper figures OFF on input line 6063.
+Package hyperref Info: Link nesting OFF on input line 6068.
+Package hyperref Info: Hyper index ON on input line 6071.
+Package hyperref Info: backreferencing OFF on input line 6078.
+Package hyperref Info: Link coloring OFF on input line 6083.
+Package hyperref Info: Link coloring with OCG OFF on input line 6088.
+Package hyperref Info: PDF/A mode OFF on input line 6093.
+
+(/usr/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count443
+\c@Item=\count444
+\c@Hfootnote=\count445
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
+
+(/usr/share/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count446
+\c@bookmark@seq@number=\count447
+
+(/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip78
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 25.
+
+(/usr/share/texmf-dist/tex/generic/nth/nth.sty
+Package: nth 2002/02/27
+))
+\@quotelevel=\count448
+\@quotereset=\count449
+Package translations Info: No language package found. I am going to use `englis
+h' as default language. on input line 38.
+
+(/usr/share/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
+8.
+
+(/usr/share/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+) (output//main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count450
+\scratchdimen=\dimen195
+\scratchbox=\box67
+\nofMPsegments=\count451
+\nofMParguments=\count452
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count453
+\MPscratchDim=\dimen196
+\MPnumerator=\count454
+\makeMPintoPDFobject=\count455
+\everyMPtoPDFconversion=\toks30
+) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(86.72377pt, 440.84746pt, 86.72377pt)
+* v-part:(T,H,B)=(86.72377pt, 621.52245pt, 86.72377pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=440.84746pt
+* \textheight=621.52245pt
+* \oddsidemargin=14.45378pt
+* \evensidemargin=14.45378pt
+* \topmargin=-22.54622pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+./main.tex:38: Package cleveref Error: cleveref must be loaded after hyperref!.
+
+
+See the cleveref package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 \begin{document}
+                     
+Package load order is wrong: load cleveref *after* hyperref.
+
+Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
+Package biblatex Info: ... file 'english-apa.lbx' found.
+(/usr/share/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
+File: english-apa.lbx 2023/03/20 v9.17 APA biblatex localisation
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
+Package biblatex Info: ... file 'american-apa.lbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex-apa/american-apa.lbx
+File: american-apa.lbx 2023/03/20 v9.17 APA biblatex localisation
+Package biblatex Info: Trying to load language 'american'...
+Package biblatex Info: ... file 'american.lbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/lbx/american.lbx
+File: american.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+))))
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (output//main.bbl
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'sdo_aia_spacecraft_web':
+(biblatex)                - online entry 'sdo_aia_spacecraft_web' (references.b
+ib): Invalid format '26-03-2024' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'sdo_aia_spacecraft_web':
+(biblatex)                - online entry 'sdo_aia_spacecraft_web' (references.b
+ib): Invalid format '26-03-2024' of date field 'urldate' - ignoring.
+
+)
+Package biblatex Info: Reference section=0 on input line 38.
+Package biblatex Info: Reference segment=0 on input line 38.
+
+(/usr/share/texmf-dist/tex/latex/translations/translations-basic-dictionary-eng
+lish.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 38.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring ON on input line 38.
+ (output//main.out) (output//main.out)
+\@outlinefile=\write4
+\openout4 = `main.out'.
+
+<../images/jain logo.png, id=56, 1107.13625pt x 320.19624pt>
+File: ../images/jain logo.png Graphic file (type png)
+<use ../images/jain logo.png>
+Package pdftex.def Info: ../images/jain logo.png  used on input line 44.
+(pdftex.def)             Requested size: 176.33452pt x 52.8985pt.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
+/enc/dvips/base/8r.enc} <output//../images/jain logo.png>] (./certificate.tex
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
+* v-part:(T,H,B)=(28.45274pt, 738.0645pt, 28.45274pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=500.484pt
+* \textheight=738.0645pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-80.81725pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+File: ../images/jain logo.png Graphic file (type png)
+<use ../images/jain logo.png>
+Package pdftex.def Info: ../images/jain logo.png  used on input line 9.
+(pdftex.def)             Requested size: 200.18817pt x 60.0513pt.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 20.
+
+(/usr/share/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
+ 20.
+
+(/usr/share/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
+ 20.
+
+(/usr/share/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
+ 20.
+
+(/usr/share/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
+<images/tanmoy_sign.png, id=66, 170.13562pt x 48.93282pt>
+File: images/tanmoy_sign.png Graphic file (type png)
+<use images/tanmoy_sign.png>
+Package pdftex.def Info: images/tanmoy_sign.png  used on input line 49.
+(pdftex.def)             Requested size: 127.6014pt x 36.69951pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
+
+Overfull \hbox (3.28325pt too wide) in paragraph at lines 54--61
+ [] 
+ []
+
+[2
+
+ <./images/tanmoy_sign.png>]) (./declaration.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
+) [3
+
+] (./acknowledgements.tex) [4] (./undertaking.tex) [5] (output//main.toc)
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+ [6] (./abbreviations.tex)
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.100 \newpage
+               [1] (./abstract.tex)
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.104 \newpage
+               [2] (./introduction.tex
+
+./introduction.tex:3: LaTeX Error: Undefined color `gray'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...and velocity of the CMEs \citep{Mason2016}.
+                                                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<images/spacecraft_detailed.jpg, id=111, 526.96875pt x 651.43375pt>
+File: images/spacecraft_detailed.jpg Graphic file (type jpg)
+<use images/spacecraft_detailed.jpg>
+Package pdftex.def Info: images/spacecraft_detailed.jpg  used on input line 9.
+(pdftex.def)             Requested size: 220.42372pt x 272.48701pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
+
+./introduction.tex:15: LaTeX Error: Undefined color `gray'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 ... image every 12 seconds. \citep{Lemen2011}
+                                                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.16 
+      [3]
+./introduction.tex:25: Undefined control sequence.
+<recently read> \multirow 
+                          
+l.25       \multirow
+                     6173 Å & HMI scans Fe I 6173  & Intensity, velocity an...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:25: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.25 ... I 6173  & Intensity, velocity and & 3.7 &
+                                                   & & magnetic field of pho...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/SDO AIA Telescopes.jpg, id=121, 722.7pt x 483.8075pt>
+File: images/SDO AIA Telescopes.jpg Graphic file (type jpg)
+<use images/SDO AIA Telescopes.jpg>
+Package pdftex.def Info: images/SDO AIA Telescopes.jpg  used on input line 54.
+(pdftex.def)             Requested size: 220.42372pt x 147.55737pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 5
+9.
+(/usr/share/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.60 
+      [4 <./images/spacecraft_detailed.jpg>])
+pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.108 \newpage
+               [5 <./images/SDO AIA Telescopes.jpg>] (./methodology.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+./methodology.tex:9: LaTeX Error: Undefined color `gray'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...nalysis, as mentioned in \citep{Massa2023}.
+                                                   We have made use of SSW I...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.17         \item\textbf
+                         {2011 August 04}: This event has been refered from ...
+[6]
+
+./methodology.tex:17: LaTeX Error: Undefined color `gray'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...t has been refered from \citep{Mason2016} 
+                                                  in which it is the \nth{20...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodology.tex:21: LaTeX Error: Undefined color `gray'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...ave been recorded since \citep{Klein2022}.
+                                                   The event occured around ...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 29.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 29.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 29.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 29.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 29.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 29.
+
+
+./methodology.tex:29: LaTeX Error: Undefined color `gray'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...ed for the DEM analysis \citep{Massa2023}.
+                                                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[7] [8] [9]
+
+./methodology.tex:78: LaTeX Error: Undefined color `gray'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 ...e etc. can be estimated \citep{Su2018-fq}.
+                                                   In solar research, DEM ai...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodology.tex:78: LaTeX Error: Undefined color `gray'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 ...ity and evolution \citep{Namekata2023-rq}.
+                                                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+[10]
+
+./methodology.tex:84: LaTeX Error: Undefined color `gray'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84 ...asis pursuit technique \citep{Cheung2015},
+                                                   fast iterative regularize...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodology.tex:84: LaTeX Error: Undefined color `gray'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84 ...ve regularized method \citep{Plowman2013},
+                                                   iterative SITES method \c...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodology.tex:84: LaTeX Error: Undefined color `gray'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84 ...iterative SITES method \citep{Morgan2019},
+                                                   regularized method (REG) ...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodology.tex:84: LaTeX Error: Undefined color `gray'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84 ...gularized method (REG) \citep{Hannah2012},
+                                                   regularized maximum likel...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodology.tex:84: LaTeX Error: Undefined color `gray'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84 ...likelihood (RML) method \citep{Massa2023} 
+                                                  etc. We will be making use...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+) [11]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 443.57848pt, 85.35826pt)
+* v-part:(T,H,B)=(71.13188pt, 628.44073pt, 95.39737pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=443.57848pt
+* \textheight=628.44073pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
+
+./main.tex:114: Misplaced alignment tab character &.
+<argument> Astronomy &
+                      amp; Astrophysics
+l.114 
+      
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./main.tex:114: Misplaced alignment tab character &.
+<argument> Astronomy &
+                      amp; Astrophysics
+l.114 
+      
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[12
+
+] [13] (output//main.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 29B56C4584AC3E7E15D193E3EADB9BFC;1821.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 26417 strings out of 476076
+ 525153 string characters out of 5793775
+ 1940187 words of memory out of 5000000
+ 48148 multiletter control sequences out of 15000+600000
+ 612084 words of font info for 142 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 73i,10n,101p,1769b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrr8a.p
+fb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dis
+t/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/times/
+utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/
+texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on output//main.pdf (19 pages, 646827 bytes).
+PDF statistics:
+ 267 PDF objects out of 1000 (max. 8388607)
+ 215 compressed objects within 3 object streams
+ 48 named destinations out of 1000 (max. 500000)
+ 125 words of extra memory for PDF output out of 10000 (max. 10000000)
+

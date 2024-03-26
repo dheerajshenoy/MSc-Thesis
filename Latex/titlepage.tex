@@ -1,7 +1,5 @@
 \documentclass[12pt]{article}
-
-\include{includes}
-
+\input{includes}
 \addbibresource{references.bib}
 
 \setlength{\parindent}{1cm}
@@ -11,10 +9,10 @@
 \renewcommand{\refname}{\fontseries{m}\selectfont References}
 
 \DeclareCiteCommand{\citep}
-{\usebibmacro{prenote}}
-{\mkbibparens{\textbf{\usebibmacro{cite}}}}
-{\multicitedelim}
-{\usebibmacro{postnote}}
+                   {\usebibmacro{prenote}}
+                   {\mkbibparens{\textbf{\usebibmacro{cite}}}}
+                   {\multicitedelim}
+                   {\usebibmacro{postnote}}
 
 \def \projectname {Investigating Temperature Variations of the Solar Corona during CMEs}
 \def \auth {V. Dheeraj Shenoy}
@@ -27,13 +25,12 @@
 \linespread{1.5} % Set line spacing to 1.5 times
 
 \DeclareLabeldate{%
-  \field{date}
-  \field{year}
-  \field{eventdate}
-  \field{origdate}
-  \field{urldate}
+    \field{date}
+    \field{year}
+    \field{eventdate}
+    \field{origdate}
+    \field{urldate}
 }
-
 
 \begin{document}
 
@@ -49,7 +46,7 @@
 
     \vspace{0.5cm}
 
-    \Large{Master's thesis submitted by}
+    \Large{Project report submitted by}
 
     \textbf{\large{\auth}}
 
@@ -73,7 +70,7 @@
     Bengaluru\\
 
     \vspace{1cm}
-    \textbf{\large{April 2024}}
+    \textbf{\large{November 2023}}
 
 \end{center}
 
@@ -91,7 +88,6 @@
 
 \newpage
 \thispagestyle{empty}
-\tableofcontents
 
 \newpage
 
@@ -107,8 +103,6 @@
 
 \newpage
 
-\input{methodology}
-
 \newgeometry{left=3cm, right = 3cm, top = 2.5cm}
 \printbibliography
 
@@ -116,5 +110,5 @@
 
 %%% Local Variables:
 %%% mode: LaTeX
-%%% TeX-master: t
+%%% TeX-master: "main"
 %%% End:

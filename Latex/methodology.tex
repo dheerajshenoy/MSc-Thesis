@@ -1,0 +1,90 @@
+\section{Methodology}
+
+In this study, we wish to find a method of detecting signatures of CMEs on the Sun by converting it to a point source (from now on I'll refer to this as `\textbf{Pointifying}') and then inspecting if the signatures of the CMEs exist after the conversion and is similar to what is was before the conversion. ``Pointifying'' the Sun roughly translates to converting Sun to a star, or placing our Sun to a place that's distant from Earth/observer in comparison to the distance between us and the Sun, defined as astronomical unit (1 AU $\approx 1.496\times10^{8}$ km) such that it appears as a point source. We then analyse and compare the irradiance from the point source Sun and the full disk Sun using DEM to see if they show similar signatures of CMEs. Typically, Sun-as-a-star analysis involves selecting a region of interest on the surface of the Sun, making the assumption that this is the only region that affects the event under study, and that there is no activity anywhere on the rest of the Sun's surface, and then integrating the parameter of interest over the entire Solar disk. This is again a rough approximation to  an actual star.\\
+
+\noindent In the following sections, we discuss about the Event selection, Data used for the study, Data Analysis procedure and finally the results and conclusion.
+
+\subsection{Data Analysis tools used}
+
+We have made use of Python programming language for our analysis. We have made extensive use of the following standard libraries: Numpy, Scipy, Aiapy, Sunpy, Pandas, Matplotlib, Astropy, Natsort, Multiprocessing, Datetime, Moviepy. In addition, we have used the RML method code for DEM analysis, as mentioned in \citep{Massa2023}. We have made use of SSW IDL for obtaining the temperature response curves for AIA. For visual inspection of the CME events, we have used JHelioViewer software. For quick inspection of the downloaded FITS data, we have used FITSExplorer, a software created as a side project by D. V. Shenoy, which is similar to DS9.
+
+\subsection{Event Selection}
+
+We have chosen three CME events that have erupted on 2011 August 04, 2012 August 31 and 2021 October 28. We describe below in detail these events.
+
+\begin{enumerate}
+
+        \item\textbf{2011 August 04}: This event has been refered from \citep{Mason2016} in which it is the \nth{20} Event. The event started at around 04:12 UT.
+
+        \item\textbf{2012 August 31}: This CME event was associated with a long filament eruption and it erupted around 19:49 UT.
+
+        \item\textbf{2021 October 28}: This is an example for rarely occuring `ground level enhancement' event. During such an event, particles from the Sun are energetic enough to pass through the magnetic sheath that surrounds Earth and protects us from low energy solar outbursts. This was only the 73rd ground level enhancement since records began in the 1940s, and none have been recorded since \citep{Klein2022}. The event occured around 15:17 UT.\\
+
+\end{enumerate}
+
+\noindent We have used 10 hours of data for the first two events, and about 7 hours of data for the third event. All three event data are at 2 minute cadence.
+
+\subsection{Data}
+
+The SDO/AIA data is accessed through the JSOC portal (\textbf{http://jsoc.stanford.edu}) and required event data is obtained through the service. Event data consists of FITS files of Sun's image for the selected wavelength bands. For our analysis, we have used 5 channels: 94 $\AA$, 131 $\AA$, 171 $\AA$, 193 $\AA$ and 211 $\AA$. The remaining channels probe the Sun's surface temperature that is greater than what is required for our analysis. Also, the 335 $\AA$ channel has been excluded because of it's relatively weak temperature response at any temperature which affects the RML method used for the DEM analysis \citep{Massa2023}.
+
+\subsection{Image Pre-Processing}
+
+The downloaded FITS data files are 4096 $\times$ 4096 pixels in dimension. Data downloaded from the portal is level 1, which has been flat-fielded and processed to remove bad pixels and spikes (only for EUV channels), but not registered to preserve precise pixel values. As different channels of AIA have different roll angles, multi-wavelength analysis of any kind with level 1.0 data is problematic. Also, the pointing information contained in the headers of these FITS images will not be accurate, as it would have undergone changes compared to the information stored when the image was created. As mentioned in the SDO Data Analysis Guide (REFERENCE REQUIRED), we have to use \texttt{aia\_prep.pro} function in Solar Software (SSW) IDL to correct or prepare the data used. The images are downscaled from their original 4096 $\times$ 4096 pixel dimension to 512 $\times$ 512 pixels using sunpy. Obtaining DEM solutions for the original dimension would be really time consuming and also unnecessary hard work as we are comparing full disk and point source DEM solutions.
+
+The \textbf{aiapy} library is used to carry out the necessary procedure like `\textbf{Pointing correction}' and `\textbf{Registration}' as mentioned in the documentation of aiapy, to convert level 1 data to level 1.5. Pointing correction updates the keywords in the header of the FITS file to the latest information and Registration rotates, scales and translates the image so that the Solar north is aligned with the y axis and each pixel is 0.6 arcsec cross, and the center of the Sun is at the center of the image. Now, after this calibration, the images are good for multi-wavelength analysis. Finally, the images are exposure time normalized. This is because, images taken under different lighting conditions or exposure settings can be compared acorss different channels. Without this, differences in brightness due to varying exposure times could distort interpretations and analysis.
+
+\subsection{DEM Analysis}
+
+\subsubsection{Emission Measure}
+
+Emission measure (EM) is a quantity used in astrophysics to describe the amount of emitting material along the line of sight in a particular volume, usually in the context of a hot or ionized gas, such as a stellar atmosphere. It provides a measure of the emission intensity of a given region at various temperatures. Emission measure is expressed in units of $cm^{-3}$ or $cm^{-5}$, representing the number of particles emitting radiation per unit volume or per unit area, respectively.
+
+Emission measure is related to the number density of particles $n$ in a volume $dV$ of plasma, in a particular temperature range $T_1$ and $T_2$, along the line of sight, is given by,
+
+\vspace{-0.75cm}
+\begin{center}
+    \begin{equation*}
+        EM_{LOS} = EM = \int_{T_1}^{T_2} n^2 \hspace{0.1cm} dV
+    \end{equation*}
+\end{center}
+
+Emission measure is a crucial parameter in understanding the energetics and physical conditions of a plasma, such as those found in stars, galaxies and other astrophysical environments. In the context of the Sun, the emission measure is often used to study the solar corona, helping us to understand the distribution of temperatures and the processes governing the heating of the outer solar atmosphere.
+
+\subsubsection{Differential Emission Measure}
+
+Differential Emission Measure (DEM) is used to describe the distribution of emitting material at different temperatures in a given volume. It is a measurement of the amount of plasma at various temperatures per unit volume along the sight. DEM helps us understand how much material is present at different temperature in stellar atmosphere. This is crucial for studying the physical conditions and processes occuring in stellar atmospheres. DEM is usually expressed in units of $cm^{-5}K^{-1}$, representing the number of particles emitting radiation at a particular temperature per unit volume.
+
+\vspace{-.75cm}
+\everymath{\displaystyle}
+\begin{center}
+    \begin{equation*}
+        DEM = f(T) = \frac{d}{dT}\hspace{0.1cm} EM = n^2 \hspace{0.1cm} \frac{dV}{dT}
+    \end{equation*}
+\end{center}
+
+The integral of $DEM(T)$ over a finite temperature range is called as the emission measure. This quantity helps to understand the thermal structure of a stellar atmosphere, providing insight into the distribution of temperatures and the heating mechanisms that operate in a particular region. DEM arises from certain aspects of coronal emission line. Optically thin property of corona, scaling of emission line intensity with density squared $n^2$(for most lines) and temperature response function, $R(T)$, that peaks at certain temperature for each of the lines.
+
+If $R(x) \equiv R(T(x))$ is the temperature reponse function, then, line intensity along the line of sight can be written as,
+
+\vspace{-.75cm}
+\begin{center}
+    \begin{equation*}
+        I \propto \int_{LOS} n^2(x) R(T(x)) \hspace{0.1cm} dx
+    \end{equation*}
+\end{center}
+
+
+From a $DEM$, parameters like plasma density, thermal X-ray flux, thermal energy and weighted temperature emission measure etc. can be estimated \citep{Su2018-fq}. In solar research, DEM aids in understanding the Sun's atmosphere, while in stellar astrophysics, it contributes to characterizing other stars, enhancing our knowledge of stellar diversity and evolution \citep{Namekata2023-rq}.
+
+\subsubsection{Differential Emission Measure Inversion}
+
+DEM inversion refers to the process of determining the physical conditions of the plasma from observed coronal emission line data. Radiation emitted by the plasma is observed at different wavelengths using spectrscopic techniques. The observed data is then used to construct the DEM, which represents the distribution of emitting material at different temperatrues in the stellar atmosphere. Next, the inversion process is employed, which is basically reconstructing the DEM, thereby helping us to determine the underlying temperature distribution which gave rise to the observed emission line intensities. Then different computational techniques can be employed to fit theoretical models of the emission at different temperatures to the observed data. The best fit model then provides the information about the temperature distribution of the plasma.\\
+
+Many DEM inversion techniques have been developed over the years: basis pursuit technique \citep{Cheung2015}, fast iterative regularized method \citep{Plowman2013}, iterative SITES method \citep{Morgan2019}, regularized method (REG) \citep{Hannah2012}, regularized maximum likelihood (RML) method \citep{Massa2023} etc. We will be making use of the RML method, as it has been found to be a good approximation to the actual DEM profiles and is performant in comparison to the other methods.\\
+
+After calibrating the data (registering, pointing correction and exposure time normalization), the image data is fed to the \texttt{dem\_rml.py} DEM code which returns the DEM solutions for the desired temperature ranges. We choose the temperature range of logT[K] = [5.85, 6.75].
+%%% Local Variables:
+%%% mode: LaTeX
+%%% TeX-master: "main"
+%%% End:
