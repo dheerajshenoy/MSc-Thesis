@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.24)  27 MAR 2024 00:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.24)  6 APR 2024 00:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -145,9 +145,6 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-)
-(/usr/share/texmf-dist/tex/latex/cleveref/cleveref.sty
-Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 )
 (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
@@ -542,35 +539,42 @@ Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \c@nlinenum=\count429
 \TeXr@lab=\toks25
 )
-(/usr/share/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2023/08/05 v3.6o Customizing captions (AR)
-
-(/usr/share/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen168
-\captionmargin=\dimen169
-\caption@leftmargin=\dimen170
-\caption@rightmargin=\dimen171
-\caption@width=\dimen172
-\caption@indent=\dimen173
-\caption@parindent=\dimen174
-\caption@hangindent=\dimen175
-Package caption Info: Standard document class detected.
-)
-\c@caption@flags=\count430
-\c@continuedfloat=\count431
-)
 (/usr/share/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
 )
 (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip77
-\enit@outerparindent=\dimen176
+\enit@outerparindent=\dimen168
 \enit@toks=\toks26
 \enit@inbox=\box64
-\enit@count@id=\count432
-\enitdp@description=\count433
+\enit@count@id=\count430
+\enitdp@description=\count431
+)
+(/usr/share/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/usr/share/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen169
+\captionmargin=\dimen170
+\caption@leftmargin=\dimen171
+\caption@rightmargin=\dimen172
+\caption@width=\dimen173
+\caption@indent=\dimen174
+\caption@parindent=\dimen175
+\caption@hangindent=\dimen176
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count432
+\c@continuedfloat=\count433
+)
+(/usr/share/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count434
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count435
 )
 (/usr/share/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
@@ -583,7 +587,7 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@toks=\toks27
 \XKV@tempa@toks=\toks28
 )
-\XKV@depth=\count434
+\XKV@depth=\count436
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texmf-dist/tex/latex/adjustbox/adjcalc.sty
@@ -617,12 +621,12 @@ File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 
 (/usr/share/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count435
+\c@checkoddpage=\count437
 )
 (/usr/share/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box66
-\sift@deathcycles=\count436
+\sift@deathcycles=\count438
 \@vwid@loff=\dimen189
 \@vwid@roff=\dimen190
 ))
@@ -650,11 +654,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count437
+\c@section@level=\count439
 )
 \@linkdim=\dimen191
-\Hy@linkcounter=\count438
-\Hy@pagecounter=\count439
+\Hy@linkcounter=\count440
+\Hy@pagecounter=\count441
 
 (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
@@ -664,7 +668,7 @@ Now handling font encoding PD1 ...
 (/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count440
+\Hy@SavedSpaceFactor=\count442
 
 (/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
@@ -678,7 +682,7 @@ Package hyperref Info: Plain pages OFF on input line 4194.
 Package hyperref Info: Backreferencing OFF on input line 4199.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4446.
-\c@Hy@tempcnt=\count441
+\c@Hy@tempcnt=\count443
 LaTeX Info: Redefining \url on input line 4784.
 \XeTeXLinkMargin=\dimen192
 
@@ -689,7 +693,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count442
+\Fld@menulength=\count444
 \Field@Width=\dimen193
 \Fld@charsize=\dimen194
 Package hyperref Info: Hyper figures OFF on input line 6063.
@@ -704,9 +708,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6093.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count443
-\c@Item=\count444
-\c@Hfootnote=\count445
+\Hy@abspage=\count445
+\c@Item=\count446
+\c@Hfootnote=\count447
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -718,8 +722,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count446
-\c@bookmark@seq@number=\count447
+\Fld@listcount=\count448
+\c@bookmark@seq@number=\count449
 
 (/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
@@ -732,13 +736,119 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip78
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 25.
+Package hyperref Info: Option `colorlinks' set `true' on input line 24.
 
+(/usr/share/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+)
 (/usr/share/texmf-dist/tex/generic/nth/nth.sty
 Package: nth 2002/02/27
+)
+(/usr/share/texmf-dist/tex/latex/tabularray/tabularray.sty
+Package: tabularray 2024-02-16 v2024A Typeset tabulars and arrays with LaTeX3
+\l__tblr_a_int=\count450
+\l__tblr_c_int=\count451
+\l__tblr_r_int=\count452
+\l__tblr_d_dim=\dimen195
+\l__tblr_h_dim=\dimen196
+\l__tblr_o_dim=\dimen197
+\l__tblr_p_dim=\dimen198
+\l__tblr_q_dim=\dimen199
+\l__tblr_r_dim=\dimen256
+\l__tblr_s_dim=\dimen257
+\l__tblr_t_dim=\dimen258
+\l__tblr_v_dim=\dimen259
+\l__tblr_w_dim=\dimen260
+\l__tblr_a_box=\box67
+\l__tblr_b_box=\box68
+\l__tblr_c_box=\box69
+\l__tblr_d_box=\box70
+\g__tblr_table_count_int=\count453
+\c@rownum=\count454
+\c@colnum=\count455
+\c@rowcount=\count456
+\c@colcount=\count457
+\abovesep=\dimen261
+\belowsep=\dimen262
+\leftsep=\dimen263
+\rightsep=\dimen264
+\g_tblr_level_int=\count458
+\g__tblr_data_row_key_count_int=\count459
+\g__tblr_data_column_key_count_int=\count460
+\g__tblr_data_cell_key_count_int=\count461
+\g__tblr_array_int=\count462
+\l__tblr_key_count_int=\count463
+\l__tblr_key_quotient_int=\count464
+\l__tblr_key_quotient_two_int=\count465
+\l__tblr_key_remainder_int=\count466
+\g__tblr_data_str_value_count_int=\count467
+\rulewidth=\dimen265
+\l__tblr_strut_dp_dim=\dimen266
+\l__tblr_strut_ht_dim=\dimen267
+\g__tblr_cell_wd_dim=\dimen268
+\g__tblr_cell_ht_dim=\dimen269
+\g__tblr_cell_head_dim=\dimen270
+\g__tblr_cell_foot_dim=\dimen271
+\l__column_target_dim=\dimen272
+\l__tblr_caption_box=\box71
+\l__tblr_caption_left_box=\box72
+\l__tblr_row_head_box=\box73
+\l__tblr_row_foot_box=\box74
+\l__tblr_row_head_foot_dim=\dimen273
+\tablewidth=\dimen274
+\l__tblr_table_firsthead_box=\box75
+\l__tblr_table_middlehead_box=\box76
+\l__tblr_table_lasthead_box=\box77
+\l__tblr_table_firstfoot_box=\box78
+\l__tblr_table_middlefoot_box=\box79
+\l__tblr_table_lastfoot_box=\box80
+\l__tblr_remain_height_dim=\dimen275
+\l__tblr_long_from_int=\count468
+\l__tblr_long_to_int=\count469
+\l__tblr_curr_i_int=\count470
+\l__tblr_prev_i_int=\count471
+\l__tblr_table_page_int=\count472
+\l__tblr_table_head_box=\box81
+\l__tblr_table_foot_box=\box82
+\l__tblr_table_head_foot_dim=\dimen276
+\l__tblr_table_head_body_foot_dim=\dimen277
+\l__tblr_table_box=\box83
+\l__tblr_table_hlines_box=\box84
+\l__tblr_hline_box=\box85
+\l__tblr_row_box=\box86
+\l__tblr_col_o_wd_dim=\dimen278
+\l__tblr_col_b_wd_dim=\dimen279
+\l__tblr_hline_leftskip_dim=\dimen280
+\l__tblr_hline_rightskip_dim=\dimen281
+\l__tblr_row_ht_dim=\dimen282
+\l__tblr_row_dp_dim=\dimen283
+\l__tblr_row_abovesep_dim=\dimen284
+\l__tblr_row_belowsep_dim=\dimen285
+\l__tblr_row_vlines_box=\box87
+\l__tblr_vline_box=\box88
+\l__tblr_cell_box=\box89
+\l__row_upper_dim=\dimen286
+\l__row_lower_dim=\dimen287
+\l__row_vpace_dim=\dimen288
+\l__tblr_vline_aboveskip_dim=\dimen289
+\l__tblr_vline_belowskip_dim=\dimen290
+\l__tblr_cell_wd_dim=\dimen291
+\l__tblr_cell_ht_dim=\dimen292
+\l__tblr_diag_box=\box90
 ))
-\@quotelevel=\count448
-\@quotereset=\count449
+\@quotelevel=\count473
+\@quotereset=\count474
 Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 38.
 
@@ -756,7 +866,50 @@ LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
 
 (/usr/share/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) (output//main.aux)
+) (output//main.aux
+
+LaTeX Warning: Label `fig:label' multiply defined.
+
+
+LaTeX Warning: Label `fig:label@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:soho_cme_aug_04_2011' multiply defined.
+
+
+LaTeX Warning: Label `fig:soho_cme_aug_04_2011@cref' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:soho_cme_aug_04_2011' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:soho_cme_aug_04_2011@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:soho_cme_aug_31_2012' multiply defined.
+
+
+LaTeX Warning: Label `fig:soho_cme_aug_31_2012@cref' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:soho_cme_aug_31_2012' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:soho_cme_aug_31_2012@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:soho_cme_oct_28_2021' multiply defined.
+
+
+LaTeX Warning: Label `fig:soho_cme_oct_28_2021@cref' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:soho_cme_oct_28_2021' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:soho_cme_oct_28_2021@cref' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
@@ -777,19 +930,18 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
-
-(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count450
-\scratchdimen=\dimen195
-\scratchbox=\box67
-\nofMPsegments=\count451
-\nofMParguments=\count452
+\scratchcounter=\count475
+\scratchdimen=\dimen293
+\scratchbox=\box91
+\nofMPsegments=\count476
+\nofMParguments=\count477
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count453
-\MPscratchDim=\dimen196
-\MPnumerator=\count454
-\makeMPintoPDFobject=\count455
+\MPscratchCnt=\count478
+\MPscratchDim=\dimen294
+\MPnumerator=\count479
+\makeMPintoPDFobject=\count480
 \everyMPtoPDFconversion=\toks30
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -834,18 +986,6 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-./main.tex:38: Package cleveref Error: cleveref must be loaded after hyperref!.
-
-
-See the cleveref package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.38 \begin{document}
-                     
-Package load order is wrong: load cleveref *after* hyperref.
-
 Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
 Package biblatex Info: ... file 'english-apa.lbx' found.
 (/usr/share/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
@@ -879,20 +1019,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (output//main.bbl
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'sdo_aia_spacecraft_web':
-(biblatex)                - online entry 'sdo_aia_spacecraft_web' (references.b
-ib): Invalid format '26-03-2024' of date field 'urldate' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'sdo_aia_spacecraft_web':
-(biblatex)                - online entry 'sdo_aia_spacecraft_web' (references.b
-ib): Invalid format '26-03-2024' of date field 'urldate' - ignoring.
-
-)
+ (output//main.bbl)
 Package biblatex Info: Reference section=0 on input line 38.
 Package biblatex Info: Reference segment=0 on input line 38.
 
@@ -911,7 +1038,7 @@ Package hyperref Info: Link coloring ON on input line 38.
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-<../images/jain logo.png, id=56, 1107.13625pt x 320.19624pt>
+<../images/jain logo.png, id=88, 1107.13625pt x 320.19624pt>
 File: ../images/jain logo.png Graphic file (type png)
 <use ../images/jain logo.png>
 Package pdftex.def Info: ../images/jain logo.png  used on input line 44.
@@ -986,19 +1113,19 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
-<images/tanmoy_sign.png, id=66, 170.13562pt x 48.93282pt>
+<images/tanmoy_sign.png, id=98, 170.13562pt x 48.93282pt>
 File: images/tanmoy_sign.png Graphic file (type png)
 <use images/tanmoy_sign.png>
-Package pdftex.def Info: images/tanmoy_sign.png  used on input line 49.
+Package pdftex.def Info: images/tanmoy_sign.png  used on input line 48.
 (pdftex.def)             Requested size: 127.6014pt x 36.69951pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 53.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 53.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 53.
 
-Overfull \hbox (3.28325pt too wide) in paragraph at lines 54--61
+Overfull \hbox (3.28325pt too wide) in paragraph at lines 53--60
  [] 
  []
 
@@ -1015,310 +1142,408 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [6] (./abbreviations.tex)
+ [6] (output//main.lof)
+\tf@lof=\write6
+\openout6 = `main.lof'.
+
+
+[7] (./abbreviations.tex)
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.100 \newpage
+l.105 \newpage
                [1] (./abstract.tex)
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.104 \newpage
+l.109 \newpage
                [2] (./introduction.tex
 
-./introduction.tex:3: LaTeX Error: Undefined color `gray'.
+LaTeX Warning: Reference `fig:structure_of_sun' on page 1 undefined on input li
+ne 7.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 ...and velocity of the CMEs \citep{Mason2016}.
-                                                  
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<images/spacecraft_detailed.jpg, id=111, 526.96875pt x 651.43375pt>
-File: images/spacecraft_detailed.jpg Graphic file (type jpg)
-<use images/spacecraft_detailed.jpg>
-Package pdftex.def Info: images/spacecraft_detailed.jpg  used on input line 9.
-(pdftex.def)             Requested size: 220.42372pt x 272.48701pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
-
-./introduction.tex:15: LaTeX Error: Undefined color `gray'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 ... image every 12 seconds. \citep{Lemen2011}
-                                                  
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<images/structure_of_sun.jpg, id=192, 903.375pt x 642.4pt>
+File: images/structure_of_sun.jpg Graphic file (type jpg)
+<use images/structure_of_sun.jpg>
+Package pdftex.def Info: images/structure_of_sun.jpg  used on input line 11.
+(pdftex.def)             Requested size: 352.6793pt x 250.79965pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.16 
-      [3]
-./introduction.tex:25: Undefined control sequence.
-<recently read> \multirow 
-                          
-l.25       \multirow
-                     6173 Å & HMI scans Fe I 6173  & Intensity, velocity an...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+l.17 
+      [3 <./images/structure_of_sun.jpg>]
+<images/corona.jpg, id=197, 187.902pt x 185.0112pt>
+File: images/corona.jpg Graphic file (type jpg)
+<use images/corona.jpg>
+Package pdftex.def Info: images/corona.jpg  used on input line 26.
+(pdftex.def)             Requested size: 220.42372pt x 217.04376pt.
 
-./introduction.tex:25: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.25 ... I 6173  & Intensity, velocity and & 3.7 &
-                                                   & & magnetic field of pho...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/SDO AIA Telescopes.jpg, id=121, 722.7pt x 483.8075pt>
-File: images/SDO AIA Telescopes.jpg Graphic file (type jpg)
-<use images/SDO AIA Telescopes.jpg>
-Package pdftex.def Info: images/SDO AIA Telescopes.jpg  used on input line 54.
-(pdftex.def)             Requested size: 220.42372pt x 147.55737pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 5
-9.
-(/usr/share/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.60 
-      [4 <./images/spacecraft_detailed.jpg>])
+l.35 
+      [4 <./images/corona.jpg>]
+<images/solar_flare_4_aug_2011.png, id=203, 281.49165pt x 281.49165pt>
+File: images/solar_flare_4_aug_2011.png Graphic file (type png)
+<use images/solar_flare_4_aug_2011.png>
+Package pdftex.def Info: images/solar_flare_4_aug_2011.png  used on input line 
+38.
+(pdftex.def)             Requested size: 220.42372pt x 220.42593pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 39.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 39.
+<images/195_Filament.png, id=204, 433.62pt x 433.62pt>
+File: images/195_Filament.png Graphic file (type png)
+<use images/195_Filament.png>
+Package pdftex.def Info: images/195_Filament.png  used on input line 46.
+(pdftex.def)             Requested size: 220.42372pt x 220.42207pt.
+<images/prominence.jpg, id=205, 527.9725pt x 527.9725pt>
+File: images/prominence.jpg Graphic file (type jpg)
+<use images/prominence.jpg>
+Package pdftex.def Info: images/prominence.jpg  used on input line 53.
+(pdftex.def)             Requested size: 220.42372pt x 220.41766pt.
+
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 44--58
+[][]  []
+ []
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.108 \newpage
-               [5 <./images/SDO AIA Telescopes.jpg>] (./methodology.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
+l.65 \subsection
+                {Stellar CMEs} [5 <./images/solar_flare_4_aug_2011.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
-
-
-./methodology.tex:9: LaTeX Error: Undefined color `gray'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9 ...nalysis, as mentioned in \citep{Massa2023}.
-                                                   We have made use of SSW I...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.17         \item\textbf
-                         {2011 August 04}: This event has been refered from ...
-[6]
-
-./methodology.tex:17: LaTeX Error: Undefined color `gray'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 ...t has been refered from \citep{Mason2016} 
-                                                  in which it is the \nth{20...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+l.72 
+      [6 <./images/195_Filament.png> <./images/prominence.jpg>]
+<images/dimming_211.png, id=225, 339.54855pt x 339.669pt>
+File: images/dimming_211.png Graphic file (type png)
+<use images/dimming_211.png>
+Package pdftex.def Info: images/dimming_211.png  used on input line 77.
+(pdftex.def)             Requested size: 132.25557pt x 132.29933pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
 
 
-./methodology.tex:21: LaTeX Error: Undefined color `gray'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 ...ave been recorded since \citep{Klein2022}.
-                                                   The event occured around ...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Command \r invalid in math mode on input line 78.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
+LaTeX Warning: Command \r invalid in math mode on input line 78.
 
- []
+<images/dimming_94.png, id=226, 339.54855pt x 339.669pt>
+File: images/dimming_94.png Graphic file (type png)
+<use images/dimming_94.png>
+Package pdftex.def Info: images/dimming_94.png  used on input line 84.
+(pdftex.def)             Requested size: 132.25557pt x 132.29933pt.
 
-
-LaTeX Warning: Command \r invalid in math mode on input line 29.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 29.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 29.
+LaTeX Warning: Command \r invalid in math mode on input line 85.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 29.
+LaTeX Warning: Command \r invalid in math mode on input line 85.
+
+<images/dimming_131.png, id=227, 339.54855pt x 339.669pt>
+File: images/dimming_131.png Graphic file (type png)
+<use images/dimming_131.png>
+Package pdftex.def Info: images/dimming_131.png  used on input line 91.
+(pdftex.def)             Requested size: 132.25557pt x 132.29933pt.
+
+LaTeX Warning: Command \r invalid in math mode on input line 92.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 29.
+LaTeX Warning: Command \r invalid in math mode on input line 92.
+
+<images/dimming_171.png, id=228, 339.54855pt x 339.669pt>
+File: images/dimming_171.png Graphic file (type png)
+<use images/dimming_171.png>
+Package pdftex.def Info: images/dimming_171.png  used on input line 99.
+(pdftex.def)             Requested size: 132.25557pt x 132.29933pt.
+
+LaTeX Warning: Command \r invalid in math mode on input line 100.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 29.
+LaTeX Warning: Command \r invalid in math mode on input line 100.
+
+<images/dimming_193.png, id=229, 339.54855pt x 339.669pt>
+File: images/dimming_193.png Graphic file (type png)
+<use images/dimming_193.png>
+Package pdftex.def Info: images/dimming_193.png  used on input line 106.
+(pdftex.def)             Requested size: 132.25557pt x 132.29933pt.
+
+LaTeX Warning: Command \r invalid in math mode on input line 107.
 
 
-./methodology.tex:29: LaTeX Error: Undefined color `gray'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 ...ed for the DEM analysis \citep{Massa2023}.
-                                                  
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[7] [8] [9]
-
-./methodology.tex:78: LaTeX Error: Undefined color `gray'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.78 ...e etc. can be estimated \citep{Su2018-fq}.
-                                                   In solar research, DEM ai...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Command \r invalid in math mode on input line 107.
 
 
-./methodology.tex:78: LaTeX Error: Undefined color `gray'.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.78 ...ity and evolution \citep{Namekata2023-rq}.
-                                                  
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<images/spacecraft_detailed.jpg, id=230, 526.96875pt x 651.43375pt>
+File: images/spacecraft_detailed.jpg Graphic file (type jpg)
+<use images/spacecraft_detailed.jpg>
+Package pdftex.def Info: images/spacecraft_detailed.jpg  used on input line 121
+.
+(pdftex.def)             Requested size: 220.42372pt x 272.48701pt.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
-[10]
 
-./methodology.tex:84: LaTeX Error: Undefined color `gray'.
+pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.128 
+       [7]
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/SDO AIA Telescopes.jpg, id=246, 722.7pt x 483.8075pt>
+File: images/SDO AIA Telescopes.jpg Graphic file (type jpg)
+<use images/SDO AIA Telescopes.jpg>
+Package pdftex.def Info: images/SDO AIA Telescopes.jpg  used on input line 164.
+
+(pdftex.def)             Requested size: 220.42372pt x 147.55737pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/AIA_telescope_layout.png, id=249, 1240.635pt x 694.09312pt>
+File: images/AIA_telescope_layout.png Graphic file (type png)
+<use images/AIA_telescope_layout.png>
+Package pdftex.def Info: images/AIA_telescope_layout.png  used on input line 17
+1.
+(pdftex.def)             Requested size: 396.76001pt x 221.96606pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
+76.
+(/usr/share/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+) [8 <./images/dimming_211.png> <./images/dimming_94.png> <./images/dimming_131
+.png> <./images/dimming_171.png> <./images/dimming_193.png>]
+
+LaTeX Warning: Text page 9 contains only floats.
+
+[9 <./images/spacecraft_detailed.jpg>]
+<images/aia_tresp.png, id=271, 462.528pt x 346.896pt>
+File: images/aia_tresp.png Graphic file (type png)
+<use images/aia_tresp.png>
+Package pdftex.def Info: images/aia_tresp.png  used on input line 180.
+(pdftex.def)             Requested size: 396.76001pt x 297.58368pt.
+
+./introduction.tex:181: Missing $ inserted.
+<inserted text> 
+                $
+l.181 ...the unit of [DN $cm^5 s^{-1} pixel^{-1}]}
                                                   
-l.84 ...asis pursuit technique \citep{Cheung2015},
-                                                   fast iterative regularize...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodology.tex:84: LaTeX Error: Undefined color `gray'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+./introduction.tex:181: Missing $ inserted.
+<inserted text> 
+                $
+l.181 ...the unit of [DN $cm^5 s^{-1} pixel^{-1}]}
                                                   
-l.84 ...ve regularized method \citep{Plowman2013},
-                                                   iterative SITES method \c...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 
-./methodology.tex:84: LaTeX Error: Undefined color `gray'.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.84 ...iterative SITES method \citep{Morgan2019},
-                                                   regularized method (REG) ...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodology.tex:84: LaTeX Error: Undefined color `gray'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.84 ...gularized method (REG) \citep{Hannah2012},
-                                                   regularized maximum likel...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodology.tex:84: LaTeX Error: Undefined color `gray'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.84 ...likelihood (RML) method \citep{Massa2023} 
-                                                  etc. We will be making use...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+) [10 <./images/SDO AIA Telescopes.jpg> <./images/AIA_telescope_layout.png (PNG
+ copy)>] (./methodology.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-) [11]
+[11 <./images/aia_tresp.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+[12]
+<images/aug_31_2012_event_sun_earth_image.jpg, id=303, 1927.2pt x 1204.5pt>
+File: images/aug_31_2012_event_sun_earth_image.jpg Graphic file (type jpg)
+<use images/aug_31_2012_event_sun_earth_image.jpg>
+Package pdftex.def Info: images/aug_31_2012_event_sun_earth_image.jpg  used on 
+input line 25.
+(pdftex.def)             Requested size: 220.42372pt x 137.75185pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+<images/soho_cme_aug_04_2011.png, id=307, 513.92pt x 513.92pt>
+File: images/soho_cme_aug_04_2011.png Graphic file (type png)
+<use images/soho_cme_aug_04_2011.png>
+Package pdftex.def Info: images/soho_cme_aug_04_2011.png  used on input line 37
+.
+(pdftex.def)             Requested size: 132.25557pt x 132.25157pt.
+<images/soho_cme_aug_31_2012.png, id=308, 513.92pt x 513.92pt>
+File: images/soho_cme_aug_31_2012.png Graphic file (type png)
+<use images/soho_cme_aug_31_2012.png>
+Package pdftex.def Info: images/soho_cme_aug_31_2012.png  used on input line 43
+.
+(pdftex.def)             Requested size: 132.25557pt x 132.25157pt.
+<images/soho_cme_oct_28_2021.png, id=309, 513.92pt x 513.92pt>
+File: images/soho_cme_oct_28_2021.png Graphic file (type png)
+<use images/soho_cme_oct_28_2021.png>
+Package pdftex.def Info: images/soho_cme_oct_28_2021.png  used on input line 49
+.
+(pdftex.def)             Requested size: 132.25557pt x 132.25157pt.
+<images/soho_cme_aug_04_2011_aia193.png, id=310, 513.92pt x 513.92pt>
+File: images/soho_cme_aug_04_2011_aia193.png Graphic file (type png)
+<use images/soho_cme_aug_04_2011_aia193.png>
+Package pdftex.def Info: images/soho_cme_aug_04_2011_aia193.png  used on input 
+line 60.
+(pdftex.def)             Requested size: 132.25557pt x 132.25157pt.
+<images/soho_cme_aug_31_2012_aia193.png, id=311, 513.92pt x 513.92pt>
+File: images/soho_cme_aug_31_2012_aia193.png Graphic file (type png)
+<use images/soho_cme_aug_31_2012_aia193.png>
+Package pdftex.def Info: images/soho_cme_aug_31_2012_aia193.png  used on input 
+line 66.
+(pdftex.def)             Requested size: 132.25557pt x 132.25157pt.
+<images/soho_cme_oct_28_2021_aia193.png, id=312, 513.92pt x 513.92pt>
+File: images/soho_cme_oct_28_2021_aia193.png Graphic file (type png)
+<use images/soho_cme_oct_28_2021_aia193.png>
+Package pdftex.def Info: images/soho_cme_oct_28_2021_aia193.png  used on input 
+line 72.
+(pdftex.def)             Requested size: 132.25557pt x 132.25157pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[13 <./images/aug_31_2012_event_sun_earth_image.jpg> <./images/soho_cme_aug_04_
+2011.png> <./images/soho_cme_aug_31_2012.png> <./images/soho_cme_oct_28_2021.pn
+g>]
+
+LaTeX Warning: Command \r invalid in math mode on input line 85.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 85.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 85.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 85.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 85.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 85.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+[14 <./images/soho_cme_aug_04_2011_aia193.png> <./images/soho_cme_aug_31_2012_a
+ia193.png> <./images/soho_cme_oct_28_2021_aia193.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+
+ []
+
+<images/ps_plus_full_disk.png, id=357, 476.982pt x 256.91985pt>
+File: images/ps_plus_full_disk.png Graphic file (type png)
+<use images/ps_plus_full_disk.png>
+Package pdftex.def Info: images/ps_plus_full_disk.png  used on input line 153.
+(pdftex.def)             Requested size: 418.80373pt x 225.58835pt.
+
+LaTeX Warning: Command \r invalid in math mode on input line 154.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 154.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+
+ []
+
+[18]) [19 <./images/ps_plus_full_disk.png>] (./results.tex
+<images/dem_ts_aug_04_2011.png, id=376, 1084.05pt x 361.35pt>
+File: images/dem_ts_aug_04_2011.png Graphic file (type png)
+<use images/dem_ts_aug_04_2011.png>
+Package pdftex.def Info: images/dem_ts_aug_04_2011.png  used on input line 21.
+(pdftex.def)             Requested size: 440.84746pt x 146.94695pt.
+<images/dem_ts_aug_31_2012.png, id=377, 1084.05pt x 361.35pt>
+File: images/dem_ts_aug_31_2012.png Graphic file (type png)
+<use images/dem_ts_aug_31_2012.png>
+Package pdftex.def Info: images/dem_ts_aug_31_2012.png  used on input line 28.
+(pdftex.def)             Requested size: 440.84746pt x 146.94695pt.
+<images/dem_ts_oct_28_2021.png, id=378, 1084.05pt x 361.35pt>
+File: images/dem_ts_oct_28_2021.png Graphic file (type png)
+<use images/dem_ts_oct_28_2021.png>
+Package pdftex.def Info: images/dem_ts_oct_28_2021.png  used on input line 35.
+(pdftex.def)             Requested size: 440.84746pt x 146.94695pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+[20 <./images/dem_ts_aug_04_2011.png> <./images/dem_ts_aug_31_2012.png>]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+)
+[21 <./images/dem_ts_oct_28_2021.png>]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(85.35826pt, 443.57848pt, 85.35826pt)
+* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
 * v-part:(T,H,B)=(71.13188pt, 628.44073pt, 95.39737pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=443.57848pt
+* \textwidth=500.484pt
 * \textheight=628.44073pt
-* \oddsidemargin=13.08827pt
-* \evensidemargin=13.08827pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
 * \topmargin=-38.1381pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -1337,13 +1562,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--85
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
 
-./main.tex:114: Misplaced alignment tab character &.
+./main.tex:123: Misplaced alignment tab character &.
 <argument> Astronomy &
                       amp; Astrophysics
-l.114 
+l.123 
       
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1352,10 +1575,10 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-./main.tex:114: Misplaced alignment tab character &.
+./main.tex:123: Misplaced alignment tab character &.
 <argument> Astronomy &
                       amp; Astrophysics
-l.114 
+l.123 
       
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1364,9 +1587,9 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[12
+[22
 
-] [13] (output//main.aux)
+] (output//main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1375,8 +1598,11 @@ L3 programming layer <2024-02-20>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 29B56C4584AC3E7E15D193E3EADB9BFC;1821.
+(rerunfilecheck)             Checksum: B511688DA2EE57224A1EB2A7CA9618BE;2963.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -1387,13 +1613,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26417 strings out of 476076
- 525153 string characters out of 5793775
- 1940187 words of memory out of 5000000
- 48148 multiletter control sequences out of 15000+600000
- 612084 words of font info for 142 fonts, out of 8000000 for 9000
+ 28811 strings out of 476076
+ 587579 string characters out of 5793775
+ 1945187 words of memory out of 5000000
+ 50480 multiletter control sequences out of 15000+600000
+ 622852 words of font info for 164 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 73i,10n,101p,1769b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,10n,102p,1561b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public
@@ -1402,10 +1628,10 @@ fb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dis
 t/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/times/
 utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/
 texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on output//main.pdf (19 pages, 646827 bytes).
+Output written on output//main.pdf (29 pages, 46180048 bytes).
 PDF statistics:
- 267 PDF objects out of 1000 (max. 8388607)
- 215 compressed objects within 3 object streams
- 48 named destinations out of 1000 (max. 500000)
- 125 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 470 PDF objects out of 1000 (max. 8388607)
+ 362 compressed objects within 4 object streams
+ 84 named destinations out of 1000 (max. 500000)
+ 304 words of extra memory for PDF output out of 10000 (max. 10000000)
 

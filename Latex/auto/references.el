@@ -29,6 +29,12 @@
     "Hannah2012"
     "Klein2022"
     "Lemen2011"
-    "sdo_aia_spacecraft_web"))
+    "sdo_aia_spacecraft_web"
+    "fits_explorer_github_2"
+    "fits_explorer_github"
+    "Pesnell2011"
+    "sun_earth_aug_31_2012_cme"
+    "Namekata2022-dm"
+    "Gopalswamy2016-nm"))
  '(or :bibtex :latex))
 

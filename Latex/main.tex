@@ -16,8 +16,9 @@
 {\multicitedelim}
 {\usebibmacro{postnote}}
 
-\def \projectname {Investigating Temperature Variations of the Solar Corona during CMEs}
-\def \auth {V. Dheeraj Shenoy}
+% Variables
+\def \projectname {Investigating Temperature Variations of Solar Corona during Coronal Mass Ejections}
+\def \auth {Dheeraj Vittal Shenoy}
 \def \gnameOne {Mr. Sundar M. N.}
 \def \gnameTwo {Dr. Tanmoy Samanta}
 \def \director {Dr. Asha Rajiv}
@@ -90,7 +91,12 @@
 
 \newpage
 \thispagestyle{empty}
-\tableofcontents
+{\hypersetup{hidelinks}
+  \tableofcontents
+\newpage
+\listoffigures
+}
+
 
 \newpage
 
@@ -108,7 +114,11 @@
 
 \input{methodology}
 
-\newgeometry{left=3cm, right = 3cm, top = 2.5cm}
+\newpage
+
+\input{results}
+
+\newgeometry{left=2cm, right = 2cm, top = 2.5cm}
 \printbibliography
 
 \end{document}

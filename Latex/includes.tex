@@ -2,7 +2,6 @@
 \usepackage[left=1.2in, right=1.2in, top=1.2in, bottom=1.2in]{geometry}
 \usepackage{url}
 \usepackage{amsmath}
-\usepackage{cleveref}
 % \usepackage{indentfirst}
 \usepackage[backend=biber, style=apa, sorting=nty]{biblatex}
 \usepackage{siunitx}
@@ -10,10 +9,10 @@
 \usepackage{setspace}
 \usepackage{times}
 \usepackage{makecell}
-\usepackage[labelfont = bf]{caption}
 \usepackage{parskip}
 \usepackage{enumitem}
-\usepackage[font=scriptsize,labelfont=bf]{caption}
+\usepackage[font=footnotesize,labelfont=bf]{caption}
+\usepackage{subcaption}
 \usepackage[export]{adjustbox}
 \usepackage{hyperref}
 \hypersetup{
@@ -21,10 +20,14 @@
   linkcolor=blue,
   filecolor=magenta,
   urlcolor=cyan,
-  citecolor=gray,
+  citecolor=blue,
 }
+\usepackage{cleveref}
 \pagenumbering{arabic}
 \usepackage[super]{nth}
+\newcommand{\capcite}[1]{(\textbf{\cite{#1}})}
+
+\usepackage{tabularray}
 
 %%% Local Variables:
 %%% mode: latex

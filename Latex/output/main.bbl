@@ -19,13 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{nty/apasortcite//global/global}
-    \entry{aia_instrument_webpage}{misc}{}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://aia.lmsal.com/public/instrument.htm}}
-      \field{title}{Atmospheric Imaging Assembly}
-    \endentry
     \entry{Cheung2015}{article}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=6fa4cdbf259879235329a9747b774797}{%
@@ -105,6 +98,43 @@
       \verb{url}
       \verb http://dx.doi.org/10.1088/0004-637X/807/2/143
       \endverb
+    \endentry
+    \entry{Gopalswamy2016-nm}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4c336979c551c82e0fd1b5109338406a}{%
+           family={Gopalswamy},
+           familyi={G\bibinitperiod},
+           given={N},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{4c336979c551c82e0fd1b5109338406a}
+      \strng{fullhash}{4c336979c551c82e0fd1b5109338406a}
+      \strng{bibnamehash}{4c336979c551c82e0fd1b5109338406a}
+      \strng{authorbibnamehash}{4c336979c551c82e0fd1b5109338406a}
+      \strng{authornamehash}{4c336979c551c82e0fd1b5109338406a}
+      \strng{authorfullhash}{4c336979c551c82e0fd1b5109338406a}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Coronal mass ejections (CMEs) are relatively a recently discovered phenomenon---in 1971, some 15 years into the Space Era. It took another two decades to realize that CMEs are the most important players in solar terrestrial relationship as the root cause of severe weather in Earth's space environment. CMEs are now counted among the major natural hazards because they cause large solar energetic particle (SEP) events and major geomagnetic storms, both of which pose danger to humans and their technology in space and ground. Geomagnetic storms discovered in the 1700s, solar flares discovered in the 1800s, and SEP events discovered in the 1900s are all now found to be closely related to CMEs via various physical processes occurring at various locations in and around CMEs, when they interact with the ambient medium. This article identifies a number of key developments that preceded the discovery of white-light CMEs suggesting that CMEs were waiting to be discovered. The last two decades witnessed an explosion of CME research following the launch of the Solar and Heliospheric Observatory mission in 1995, resulting in the establishment of a full picture of CMEs.}
+      \field{journaltitle}{Geosci. Lett.}
+      \field{month}{12}
+      \field{number}{1}
+      \field{title}{History and development of coronal mass ejections as a key player in solar terrestrial relationship}
+      \field{volume}{3}
+      \field{year}{2016}
     \endentry
     \entry{Hannah2012}{article}{}
       \name{author}{2}{}{%
@@ -741,6 +771,66 @@
       \verb http://dx.doi.org/10.1007/s11207-019-1525-4
       \endverb
     \endentry
+    \entry{Namekata2022-dm}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=cb7ad4bd82dc300f5f4166bdd357c693}{%
+           family={Namekata},
+           familyi={N\bibinitperiod},
+           given={Kosuke},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d1d3d270a3612684876f6dbf5344ae7}{%
+           family={Maehara},
+           familyi={M\bibinitperiod},
+           given={Hiroyuki},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4774e2f7f9f58fdbb25f8619f89af9d9}{%
+           family={Honda},
+           familyi={H\bibinitperiod},
+           given={Satoshi},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e21242c02073dce96845c446abd3ec2b}{%
+           family={Notsu},
+           familyi={N\bibinitperiod},
+           given={Yuta},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20abe3812625b1f32105a33f66474a37}{%
+           family={Nogami},
+           familyi={N\bibinitperiod},
+           given={Daisaku},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f1b717a188c0398fdf0b2eb36a34f93b}{%
+           family={Shibata},
+           familyi={S\bibinitperiod},
+           given={Kazunari},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{4c01e401153875207ba0ef97d8fc856f}
+      \strng{fullhash}{7de506ca7913ea4da6d6e20d3d52fb12}
+      \strng{bibnamehash}{7de506ca7913ea4da6d6e20d3d52fb12}
+      \strng{authorbibnamehash}{7de506ca7913ea4da6d6e20d3d52fb12}
+      \strng{authornamehash}{4c01e401153875207ba0ef97d8fc856f}
+      \strng{authorfullhash}{7de506ca7913ea4da6d6e20d3d52fb12}
+      \field{extraname}{1}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Solar flares are often accompanied by filament/prominence eruptions, sometimes leading to coronal mass ejections (CMEs). By analogy, we expect that stellar flares are also associated with stellar CMEs whose properties are essential to know the impact on exoplanet habitability. Probable detections of stellar CMEs are still rare, but in this decade, there are several reports that (super-)flares on M/K-dwarfs and evolved stars sometimes show blue-shifted optical/UV/X-ray emissions lines, XUV/FUV dimming, and radio bursts. Some of them are interpreted as indirect evidence of stellar prominence eruptions/CMEs on cool stars. More recently, evidence of stellar filament eruption, probably leading to a CME, is reported even on a young solar-type star (G-dwarf) as a blue-shifted absorption of H$\alpha$ line associated with a superflare. Notably, the erupted masses for superflares are larger than those of the largest solar CMEs, indicating severe influence on exoplanet environments. The ratio of the kinetic energy of stellar CMEs to flare energy is significantly smaller than expected from the solar scaling relation and this discrepancy is still in debate. We will review the recent updates of stellar CME studies and discuss the future direction in this paper.}
+      \field{title}{Hunting for stellar coronal mass ejections}
+      \field{year}{2022}
+    \endentry
     \entry{Namekata2023-rq}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=cb7ad4bd82dc300f5f4166bdd357c693}{%
@@ -789,6 +879,7 @@
       \strng{authorbibnamehash}{e3be73240f03880304461b356956df77}
       \strng{authornamehash}{4c01e401153875207ba0ef97d8fc856f}
       \strng{authorfullhash}{e3be73240f03880304461b356956df77}
+      \field{extraname}{2}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{extradatescope}{labelyear}
@@ -804,6 +895,63 @@
       \field{year}{2023}
       \field{pages}{147}
       \range{pages}{1}
+    \endentry
+    \entry{Pesnell2011}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e098ad14da8e6fc8842fc0bf15473fa1}{%
+           family={Pesnell},
+           familyi={P\bibinitperiod},
+           given={W.\bibnamedelimi Dean},
+           giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f678b32478b6bf0ae32d006ef451048c}{%
+           family={Thompson},
+           familyi={T\bibinitperiod},
+           given={B.\bibnamedelimi J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8bff6372afa55f17b35f99fa78841f3a}{%
+           family={Chamberlin},
+           familyi={C\bibinitperiod},
+           given={P.\bibnamedelimi C.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{5e959084c604260b3c2f0a3377de6e6a}
+      \strng{fullhash}{6ee0b72fed8cdd1d939e6aa7f98cc98c}
+      \strng{bibnamehash}{6ee0b72fed8cdd1d939e6aa7f98cc98c}
+      \strng{authorbibnamehash}{6ee0b72fed8cdd1d939e6aa7f98cc98c}
+      \strng{authornamehash}{5e959084c604260b3c2f0a3377de6e6a}
+      \strng{authorfullhash}{6ee0b72fed8cdd1d939e6aa7f98cc98c}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1573-093X}
+      \field{journaltitle}{Solar Physics}
+      \field{month}{10}
+      \field{number}{1–2}
+      \field{title}{The Solar Dynamics Observatory (SDO)}
+      \field{volume}{275}
+      \field{year}{2011}
+      \field{pages}{3\bibrangedash 15}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1007/s11207-011-9841-3
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/s11207-011-9841-3
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/s11207-011-9841-3
+      \endverb
     \endentry
     \entry{Plowman2013}{article}{}
       \name{author}{3}{}{%
@@ -860,19 +1008,6 @@
       \verb{url}
       \verb http://dx.doi.org/10.1088/0004-637X/771/1/2
       \endverb
-    \endentry
-    \entry{sdo_aia_spacecraft_web}{online}{}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{labeltitlesource}{title}
-      \field{title}{SDO AIA Spacecraft Webpage}
-      \verb{urlraw}
-      \verb https://sdo.gsfc.nasa.gov/mission/spacecraft.php
-      \endverb
-      \verb{url}
-      \verb https://sdo.gsfc.nasa.gov/mission/spacecraft.php
-      \endverb
-      \warn{\item online entry 'sdo_aia_spacecraft_web' (references.bib): Invalid format '26-03-2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Su2018-fq}{article}{}
       \name{author}{8}{}{%
@@ -949,16 +1084,69 @@
       \field{year}{2018}
       \field{pages}{L17}
       \range{pages}{1}
+    \endentry
+    \entry{Veronig2021-rf}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=7c6786f3e8482f54624982f55ee12aea}{%
+           family={Veronig},
+           familyi={V\bibinitperiod},
+           given={Astrid\bibnamedelima M},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9965e4f7c0468f1aa941a0c3d528dd7d}{%
+           family={Odert},
+           familyi={O\bibinitperiod},
+           given={Petra},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dccfc4fa53b59f9c279408828925ca04}{%
+           family={Leitzinger},
+           familyi={L\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9474057b02e7ebebd1ca6c2ebb88961b}{%
+           family={Dissauer},
+           familyi={D\bibinitperiod},
+           given={Karin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=858dc6e20057141d1a8e743c19d394ba}{%
+           family={Fleck},
+           familyi={F\bibinitperiod},
+           given={Nikolaus\bibnamedelima C},
+           giveni={N\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e6f37149cd1e72e10ea3fbd2c508533d}{%
+           family={Hudson},
+           familyi={H\bibinitperiod},
+           given={Hugh\bibnamedelima S},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3145e8b17b3847c30ead149518e5f92d}
+      \strng{fullhash}{7db699ff5f4d0ba0f6f1ea3bbe8d3a8c}
+      \strng{bibnamehash}{7db699ff5f4d0ba0f6f1ea3bbe8d3a8c}
+      \strng{authorbibnamehash}{7db699ff5f4d0ba0f6f1ea3bbe8d3a8c}
+      \strng{authornamehash}{3145e8b17b3847c30ead149518e5f92d}
+      \strng{authorfullhash}{7db699ff5f4d0ba0f6f1ea3bbe8d3a8c}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{month}{10}
+      \field{title}{Indications of stellar coronal mass ejections through coronal dimmings}
+      \field{year}{2021}
+      \verb{eprint}
+      \verb 2110.12029
+      \endverb
     \endentry
   \enddatalist
   \datalist[entry]{nty/global//global/global}
-    \entry{aia_instrument_webpage}{misc}{}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://aia.lmsal.com/public/instrument.htm}}
-      \field{title}{Atmospheric Imaging Assembly}
-    \endentry
     \entry{Cheung2015}{article}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=6fa4cdbf259879235329a9747b774797}{%
@@ -1038,6 +1226,43 @@
       \verb{url}
       \verb http://dx.doi.org/10.1088/0004-637X/807/2/143
       \endverb
+    \endentry
+    \entry{Gopalswamy2016-nm}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4c336979c551c82e0fd1b5109338406a}{%
+           family={Gopalswamy},
+           familyi={G\bibinitperiod},
+           given={N},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{4c336979c551c82e0fd1b5109338406a}
+      \strng{fullhash}{4c336979c551c82e0fd1b5109338406a}
+      \strng{bibnamehash}{4c336979c551c82e0fd1b5109338406a}
+      \strng{authorbibnamehash}{4c336979c551c82e0fd1b5109338406a}
+      \strng{authornamehash}{4c336979c551c82e0fd1b5109338406a}
+      \strng{authorfullhash}{4c336979c551c82e0fd1b5109338406a}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Coronal mass ejections (CMEs) are relatively a recently discovered phenomenon---in 1971, some 15 years into the Space Era. It took another two decades to realize that CMEs are the most important players in solar terrestrial relationship as the root cause of severe weather in Earth's space environment. CMEs are now counted among the major natural hazards because they cause large solar energetic particle (SEP) events and major geomagnetic storms, both of which pose danger to humans and their technology in space and ground. Geomagnetic storms discovered in the 1700s, solar flares discovered in the 1800s, and SEP events discovered in the 1900s are all now found to be closely related to CMEs via various physical processes occurring at various locations in and around CMEs, when they interact with the ambient medium. This article identifies a number of key developments that preceded the discovery of white-light CMEs suggesting that CMEs were waiting to be discovered. The last two decades witnessed an explosion of CME research following the launch of the Solar and Heliospheric Observatory mission in 1995, resulting in the establishment of a full picture of CMEs.}
+      \field{journaltitle}{Geosci. Lett.}
+      \field{month}{12}
+      \field{number}{1}
+      \field{title}{History and development of coronal mass ejections as a key player in solar terrestrial relationship}
+      \field{volume}{3}
+      \field{year}{2016}
     \endentry
     \entry{Hannah2012}{article}{}
       \name{author}{2}{}{%
@@ -1674,6 +1899,66 @@
       \verb http://dx.doi.org/10.1007/s11207-019-1525-4
       \endverb
     \endentry
+    \entry{Namekata2022-dm}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=cb7ad4bd82dc300f5f4166bdd357c693}{%
+           family={Namekata},
+           familyi={N\bibinitperiod},
+           given={Kosuke},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d1d3d270a3612684876f6dbf5344ae7}{%
+           family={Maehara},
+           familyi={M\bibinitperiod},
+           given={Hiroyuki},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4774e2f7f9f58fdbb25f8619f89af9d9}{%
+           family={Honda},
+           familyi={H\bibinitperiod},
+           given={Satoshi},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e21242c02073dce96845c446abd3ec2b}{%
+           family={Notsu},
+           familyi={N\bibinitperiod},
+           given={Yuta},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20abe3812625b1f32105a33f66474a37}{%
+           family={Nogami},
+           familyi={N\bibinitperiod},
+           given={Daisaku},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f1b717a188c0398fdf0b2eb36a34f93b}{%
+           family={Shibata},
+           familyi={S\bibinitperiod},
+           given={Kazunari},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{4c01e401153875207ba0ef97d8fc856f}
+      \strng{fullhash}{7de506ca7913ea4da6d6e20d3d52fb12}
+      \strng{bibnamehash}{7de506ca7913ea4da6d6e20d3d52fb12}
+      \strng{authorbibnamehash}{7de506ca7913ea4da6d6e20d3d52fb12}
+      \strng{authornamehash}{4c01e401153875207ba0ef97d8fc856f}
+      \strng{authorfullhash}{7de506ca7913ea4da6d6e20d3d52fb12}
+      \field{extraname}{1}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Solar flares are often accompanied by filament/prominence eruptions, sometimes leading to coronal mass ejections (CMEs). By analogy, we expect that stellar flares are also associated with stellar CMEs whose properties are essential to know the impact on exoplanet habitability. Probable detections of stellar CMEs are still rare, but in this decade, there are several reports that (super-)flares on M/K-dwarfs and evolved stars sometimes show blue-shifted optical/UV/X-ray emissions lines, XUV/FUV dimming, and radio bursts. Some of them are interpreted as indirect evidence of stellar prominence eruptions/CMEs on cool stars. More recently, evidence of stellar filament eruption, probably leading to a CME, is reported even on a young solar-type star (G-dwarf) as a blue-shifted absorption of H$\alpha$ line associated with a superflare. Notably, the erupted masses for superflares are larger than those of the largest solar CMEs, indicating severe influence on exoplanet environments. The ratio of the kinetic energy of stellar CMEs to flare energy is significantly smaller than expected from the solar scaling relation and this discrepancy is still in debate. We will review the recent updates of stellar CME studies and discuss the future direction in this paper.}
+      \field{title}{Hunting for stellar coronal mass ejections}
+      \field{year}{2022}
+    \endentry
     \entry{Namekata2023-rq}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=cb7ad4bd82dc300f5f4166bdd357c693}{%
@@ -1722,6 +2007,7 @@
       \strng{authorbibnamehash}{e3be73240f03880304461b356956df77}
       \strng{authornamehash}{4c01e401153875207ba0ef97d8fc856f}
       \strng{authorfullhash}{e3be73240f03880304461b356956df77}
+      \field{extraname}{2}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{extradatescope}{labelyear}
@@ -1737,6 +2023,63 @@
       \field{year}{2023}
       \field{pages}{147}
       \range{pages}{1}
+    \endentry
+    \entry{Pesnell2011}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e098ad14da8e6fc8842fc0bf15473fa1}{%
+           family={Pesnell},
+           familyi={P\bibinitperiod},
+           given={W.\bibnamedelimi Dean},
+           giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f678b32478b6bf0ae32d006ef451048c}{%
+           family={Thompson},
+           familyi={T\bibinitperiod},
+           given={B.\bibnamedelimi J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8bff6372afa55f17b35f99fa78841f3a}{%
+           family={Chamberlin},
+           familyi={C\bibinitperiod},
+           given={P.\bibnamedelimi C.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{5e959084c604260b3c2f0a3377de6e6a}
+      \strng{fullhash}{6ee0b72fed8cdd1d939e6aa7f98cc98c}
+      \strng{bibnamehash}{6ee0b72fed8cdd1d939e6aa7f98cc98c}
+      \strng{authorbibnamehash}{6ee0b72fed8cdd1d939e6aa7f98cc98c}
+      \strng{authornamehash}{5e959084c604260b3c2f0a3377de6e6a}
+      \strng{authorfullhash}{6ee0b72fed8cdd1d939e6aa7f98cc98c}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1573-093X}
+      \field{journaltitle}{Solar Physics}
+      \field{month}{10}
+      \field{number}{1–2}
+      \field{title}{The Solar Dynamics Observatory (SDO)}
+      \field{volume}{275}
+      \field{year}{2011}
+      \field{pages}{3\bibrangedash 15}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1007/s11207-011-9841-3
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/s11207-011-9841-3
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/s11207-011-9841-3
+      \endverb
     \endentry
     \entry{Plowman2013}{article}{}
       \name{author}{3}{}{%
@@ -1793,19 +2136,6 @@
       \verb{url}
       \verb http://dx.doi.org/10.1088/0004-637X/771/1/2
       \endverb
-    \endentry
-    \entry{sdo_aia_spacecraft_web}{online}{}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{labeltitlesource}{title}
-      \field{title}{SDO AIA Spacecraft Webpage}
-      \verb{urlraw}
-      \verb https://sdo.gsfc.nasa.gov/mission/spacecraft.php
-      \endverb
-      \verb{url}
-      \verb https://sdo.gsfc.nasa.gov/mission/spacecraft.php
-      \endverb
-      \warn{\item online entry 'sdo_aia_spacecraft_web' (references.bib): Invalid format '26-03-2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Su2018-fq}{article}{}
       \name{author}{8}{}{%
@@ -1882,6 +2212,66 @@
       \field{year}{2018}
       \field{pages}{L17}
       \range{pages}{1}
+    \endentry
+    \entry{Veronig2021-rf}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=7c6786f3e8482f54624982f55ee12aea}{%
+           family={Veronig},
+           familyi={V\bibinitperiod},
+           given={Astrid\bibnamedelima M},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9965e4f7c0468f1aa941a0c3d528dd7d}{%
+           family={Odert},
+           familyi={O\bibinitperiod},
+           given={Petra},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dccfc4fa53b59f9c279408828925ca04}{%
+           family={Leitzinger},
+           familyi={L\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9474057b02e7ebebd1ca6c2ebb88961b}{%
+           family={Dissauer},
+           familyi={D\bibinitperiod},
+           given={Karin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=858dc6e20057141d1a8e743c19d394ba}{%
+           family={Fleck},
+           familyi={F\bibinitperiod},
+           given={Nikolaus\bibnamedelima C},
+           giveni={N\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e6f37149cd1e72e10ea3fbd2c508533d}{%
+           family={Hudson},
+           familyi={H\bibinitperiod},
+           given={Hugh\bibnamedelima S},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3145e8b17b3847c30ead149518e5f92d}
+      \strng{fullhash}{7db699ff5f4d0ba0f6f1ea3bbe8d3a8c}
+      \strng{bibnamehash}{7db699ff5f4d0ba0f6f1ea3bbe8d3a8c}
+      \strng{authorbibnamehash}{7db699ff5f4d0ba0f6f1ea3bbe8d3a8c}
+      \strng{authornamehash}{3145e8b17b3847c30ead149518e5f92d}
+      \strng{authorfullhash}{7db699ff5f4d0ba0f6f1ea3bbe8d3a8c}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{month}{10}
+      \field{title}{Indications of stellar coronal mass ejections through coronal dimmings}
+      \field{year}{2021}
+      \verb{eprint}
+      \verb 2110.12029
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
