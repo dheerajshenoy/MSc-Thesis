@@ -8,14 +8,15 @@
 \contentsline {subsection}{\numberline {2.5}Stellar CMEs}{6}{subsection.2.5}%
 \contentsline {subsection}{\numberline {2.6}Coronal Dimming}{7}{subsection.2.6}%
 \contentsline {subsection}{\numberline {2.7}Instrument}{7}{subsection.2.7}%
-\contentsline {section}{\numberline {3}Methodology}{11}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Data Analysis tools used}{12}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Event Selection}{12}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Data}{14}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Image Pre-Processing}{14}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}DEM Analysis}{15}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}Emission Measure}{15}{subsubsection.3.5.1}%
-\contentsline {subsubsection}{\numberline {3.5.2}Differential Emission Measure}{16}{subsubsection.3.5.2}%
-\contentsline {subsubsection}{\numberline {3.5.3}Differential Emission Measure Inversion}{17}{subsubsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.6}Data Analysis Procedure}{18}{subsection.3.6}%
-\contentsline {section}{\numberline {4}Results}{20}{section.4}%
+\contentsline {section}{\numberline {3}Literature Review}{11}{section.3}%
+\contentsline {section}{\numberline {4}Methodology}{12}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Data Analysis tools used}{13}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Event Selection}{13}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Data}{15}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Image Pre-Processing}{15}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}DEM Analysis}{16}{subsection.4.5}%
+\contentsline {subsubsection}{\numberline {4.5.1}Emission Measure}{16}{subsubsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.2}Differential Emission Measure}{17}{subsubsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.3}Differential Emission Measure Inversion}{18}{subsubsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.6}Data Analysis Procedure}{19}{subsection.4.6}%
+\contentsline {section}{\numberline {5}Results}{21}{section.5}%

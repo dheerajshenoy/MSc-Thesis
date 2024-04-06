@@ -22,6 +22,7 @@
     "sec:data_pre_processing"
     "sec:dem_analysis"
     "sec:data_analysis_procedure"
+    "fig:dem_img_aug_4_2011"
     "fig:ps_plus_full_disk"))
  :latex)
 

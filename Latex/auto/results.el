@@ -12,6 +12,10 @@
    (LaTeX-add-labels
     "fig:dem_ts_aug_04_2011"
     "fig:dem_ts_aug_31_2012"
-    "fig:dem_ts_oct_28_2021"))
+    "fig:dem_ts_oct_28_2021"
+    "eqn:pearsonr"
+    "fig:dem_pro_aug_04_2011"
+    "fig:dem_pro_aug_31_2012"
+    "fig:dem_pro_oct_28_2021"))
  :latex)
 

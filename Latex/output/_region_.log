@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.24)  6 APR 2024 01:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.24)  6 APR 2024 10:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -998,244 +998,248 @@ Package hyperref Info: Link coloring ON on input line 38.
 \openout4 = `_region_.out'.
 
 
- !name(introduction.tex) !offset(-36) 
-<images/structure_of_sun.jpg, id=33, 903.375pt x 642.4pt>
-File: images/structure_of_sun.jpg Graphic file (type jpg)
-<use images/structure_of_sun.jpg>
-Package pdftex.def Info: images/structure_of_sun.jpg  used on input line 47.
-(pdftex.def)             Requested size: 352.6793pt x 250.79965pt.
- [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
-/enc/dvips/base/8r.enc} <./images/structure_of_sun.jpg>]
-<images/corona.jpg, id=43, 187.902pt x 185.0112pt>
-File: images/corona.jpg Graphic file (type jpg)
-<use images/corona.jpg>
-Package pdftex.def Info: images/corona.jpg  used on input line 62.
-(pdftex.def)             Requested size: 220.42372pt x 217.04376pt.
+ !name(methodology.tex) !offset(-40) 
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 70.
- (/usr/share/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+ 43.
+
+(/usr/share/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 70.
+ 43.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 70.
+ 43.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 70.
+ 43.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 70.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 70.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 70.
- [2 <./images/corona.jpg>]
-<images/solar_flare_4_aug_2011.png, id=51, 281.49165pt x 281.49165pt>
-File: images/solar_flare_4_aug_2011.png Graphic file (type png)
-<use images/solar_flare_4_aug_2011.png>
-Package pdftex.def Info: images/solar_flare_4_aug_2011.png  used on input line 
-74.
-(pdftex.def)             Requested size: 220.42372pt x 220.42593pt.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+
+LaTeX Warning: Reference `sec:data_analysis_tools_used' on page 1 undefined on 
+input line 45.
+
+
+LaTeX Warning: Reference `sec:selection_of_events' on page 1 undefined on input
+ line 45.
+
+
+LaTeX Warning: Reference `sec:data_used' on page 1 undefined on input line 45.
+
+
+LaTeX Warning: Reference `sec:data_pre_processing' on page 1 undefined on input
+ line 45.
+
+
+LaTeX Warning: Reference `sec:data_analysis_procedure' on page 1 undefined on i
+nput line 45.
+
+
+LaTeX Warning: Citation 'Massa2023' on page 1 undefined on input line 50.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 75.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 75.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 75.
-<images/195_Filament.png, id=53, 433.62pt x 433.62pt>
-File: images/195_Filament.png Graphic file (type png)
-<use images/195_Filament.png>
-Package pdftex.def Info: images/195_Filament.png  used on input line 82.
-(pdftex.def)             Requested size: 220.42372pt x 220.42207pt.
-<images/prominence.jpg, id=54, 527.9725pt x 527.9725pt>
-File: images/prominence.jpg Graphic file (type jpg)
-<use images/prominence.jpg>
-Package pdftex.def Info: images/prominence.jpg  used on input line 89.
-(pdftex.def)             Requested size: 220.42372pt x 220.41766pt.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
 
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 80--94
-[][]  []
+LaTeX Warning: Reference `fig:cme_events_soho_pics' on page 1 undefined on inpu
+t line 55.
+
+
+LaTeX Warning: Reference `fig:cme_events_soho_pics_aia193' on page 1 undefined 
+on input line 55.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
  []
 
+[1
 
-LaTeX Warning: Citation 'Gopalswamy2016-nm' on page 3 undefined on input line 9
-9.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
+/enc/dvips/base/8r.enc}]
 
-[3 <./images/solar_flare_4_aug_2011.png>]
+LaTeX Warning: Citation 'Mason2016' on page 2 undefined on input line 59.
 
-LaTeX Warning: Citation 'Namekata2022-dm' on page 4 undefined on input line 107
+<images/aug_31_2012_event_sun_earth_image.jpg, id=23, 1927.2pt x 1204.5pt>
+File: images/aug_31_2012_event_sun_earth_image.jpg Graphic file (type jpg)
+<use images/aug_31_2012_event_sun_earth_image.jpg>
+Package pdftex.def Info: images/aug_31_2012_event_sun_earth_image.jpg  used on 
+input line 65.
+(pdftex.def)             Requested size: 220.42372pt x 137.75185pt.
+
+LaTeX Warning: Citation 'Klein2022' on page 2 undefined on input line 70.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+[2 <./images/aug_31_2012_event_sun_earth_image.jpg>]
+<images/soho_cme_aug_04_2011.png, id=36, 513.92pt x 513.92pt>
+File: images/soho_cme_aug_04_2011.png Graphic file (type png)
+<use images/soho_cme_aug_04_2011.png>
+Package pdftex.def Info: images/soho_cme_aug_04_2011.png  used on input line 77
 .
-
-
-LaTeX Warning: Citation 'Veronig2021-rf' on page 4 undefined on input line 107.
-
-
-
-LaTeX Warning: Citation 'Mason2016' on page 4 undefined on input line 107.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
-
- []
-
-[4 <./images/195_Filament.png> <./images/prominence.jpg>]
-<images/dimming_211.png, id=72, 339.54855pt x 339.669pt>
-File: images/dimming_211.png Graphic file (type png)
-<use images/dimming_211.png>
-Package pdftex.def Info: images/dimming_211.png  used on input line 113.
-(pdftex.def)             Requested size: 132.25557pt x 132.29933pt.
+(pdftex.def)             Requested size: 132.25557pt x 132.25157pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 114.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 114.
-
-<images/dimming_94.png, id=73, 339.54855pt x 339.669pt>
-File: images/dimming_94.png Graphic file (type png)
-<use images/dimming_94.png>
-Package pdftex.def Info: images/dimming_94.png  used on input line 120.
-(pdftex.def)             Requested size: 132.25557pt x 132.29933pt.
-
-LaTeX Warning: Command \r invalid in math mode on input line 121.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 121.
-
-<images/dimming_131.png, id=74, 339.54855pt x 339.669pt>
-File: images/dimming_131.png Graphic file (type png)
-<use images/dimming_131.png>
-Package pdftex.def Info: images/dimming_131.png  used on input line 127.
-(pdftex.def)             Requested size: 132.25557pt x 132.29933pt.
-
-LaTeX Warning: Command \r invalid in math mode on input line 128.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 128.
-
-<images/dimming_171.png, id=75, 339.54855pt x 339.669pt>
-File: images/dimming_171.png Graphic file (type png)
-<use images/dimming_171.png>
-Package pdftex.def Info: images/dimming_171.png  used on input line 135.
-(pdftex.def)             Requested size: 132.25557pt x 132.29933pt.
-
-LaTeX Warning: Command \r invalid in math mode on input line 136.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 136.
-
-<images/dimming_193.png, id=76, 339.54855pt x 339.669pt>
-File: images/dimming_193.png Graphic file (type png)
-<use images/dimming_193.png>
-Package pdftex.def Info: images/dimming_193.png  used on input line 142.
-(pdftex.def)             Requested size: 132.25557pt x 132.29933pt.
-
-LaTeX Warning: Command \r invalid in math mode on input line 143.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 143.
-
-[5 <./images/dimming_211.png> <./images/dimming_94.png> <./images/dimming_131.p
-ng> <./images/dimming_171.png> <./images/dimming_193.png>]
-<images/spacecraft_detailed.jpg, id=89, 526.96875pt x 651.43375pt>
-File: images/spacecraft_detailed.jpg Graphic file (type jpg)
-<use images/spacecraft_detailed.jpg>
-Package pdftex.def Info: images/spacecraft_detailed.jpg  used on input line 157
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
+<images/soho_cme_aug_31_2012.png, id=37, 513.92pt x 513.92pt>
+File: images/soho_cme_aug_31_2012.png Graphic file (type png)
+<use images/soho_cme_aug_31_2012.png>
+Package pdftex.def Info: images/soho_cme_aug_31_2012.png  used on input line 83
 .
-(pdftex.def)             Requested size: 220.42372pt x 272.48701pt.
+(pdftex.def)             Requested size: 132.25557pt x 132.25157pt.
+<images/soho_cme_oct_28_2021.png, id=38, 513.92pt x 513.92pt>
+File: images/soho_cme_oct_28_2021.png Graphic file (type png)
+<use images/soho_cme_oct_28_2021.png>
+Package pdftex.def Info: images/soho_cme_oct_28_2021.png  used on input line 89
+.
+(pdftex.def)             Requested size: 132.25557pt x 132.25157pt.
+<images/soho_cme_aug_04_2011_aia193.png, id=39, 513.92pt x 513.92pt>
+File: images/soho_cme_aug_04_2011_aia193.png Graphic file (type png)
+<use images/soho_cme_aug_04_2011_aia193.png>
+Package pdftex.def Info: images/soho_cme_aug_04_2011_aia193.png  used on input 
+line 100.
+(pdftex.def)             Requested size: 132.25557pt x 132.25157pt.
+<images/soho_cme_aug_31_2012_aia193.png, id=40, 513.92pt x 513.92pt>
+File: images/soho_cme_aug_31_2012_aia193.png Graphic file (type png)
+<use images/soho_cme_aug_31_2012_aia193.png>
+Package pdftex.def Info: images/soho_cme_aug_31_2012_aia193.png  used on input 
+line 106.
+(pdftex.def)             Requested size: 132.25557pt x 132.25157pt.
+<images/soho_cme_oct_28_2021_aia193.png, id=41, 513.92pt x 513.92pt>
+File: images/soho_cme_oct_28_2021_aia193.png Graphic file (type png)
+<use images/soho_cme_oct_28_2021_aia193.png>
+Package pdftex.def Info: images/soho_cme_oct_28_2021_aia193.png  used on input 
+line 112.
+(pdftex.def)             Requested size: 132.25557pt x 132.25157pt.
 
 
-LaTeX Warning: Citation 'Pesnell2011' on page 6 undefined on input line 163.
+LaTeX Warning: Command \r invalid in math mode on input line 125.
 
 
-LaTeX Warning: Citation 'Lemen2011' on page 6 undefined on input line 163.
+LaTeX Warning: Command \r invalid in math mode on input line 125.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+LaTeX Warning: Command \r invalid in math mode on input line 125.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 125.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 125.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 125.
+
+
+LaTeX Warning: Citation 'Massa2023' on page 3 undefined on input line 125.
+
+[3 <./images/soho_cme_aug_04_2011.png> <./images/soho_cme_aug_31_2012.png> <./i
+mages/soho_cme_oct_28_2021.png> <./images/soho_cme_aug_04_2011_aia193.png> <./i
+mages/soho_cme_aug_31_2012_aia193.png> <./images/soho_cme_oct_28_2021_aia193.pn
+g>]
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
+30.
+ (/usr/share/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
-[6 <./images/spacecraft_detailed.jpg>]
-<images/SDO AIA Telescopes.jpg, id=100, 722.7pt x 483.8075pt>
-File: images/SDO AIA Telescopes.jpg Graphic file (type jpg)
-<use images/SDO AIA Telescopes.jpg>
-Package pdftex.def Info: images/SDO AIA Telescopes.jpg  used on input line 200.
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
-(pdftex.def)             Requested size: 220.42372pt x 147.55737pt.
+ []
 
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
 
-LaTeX Warning: Citation 'Lemen2011' on page 7 undefined on input line 201.
-
-
-LaTeX Warning: Citation 'Lemen2011' on page 7 undefined on input line 201.
+ []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/AIA_telescope_layout.png, id=101, 1240.635pt x 694.09312pt>
-File: images/AIA_telescope_layout.png Graphic file (type png)
-<use images/AIA_telescope_layout.png>
-Package pdftex.def Info: images/AIA_telescope_layout.png  used on input line 20
-7.
-(pdftex.def)             Requested size: 396.76001pt x 221.96606pt.
-
-LaTeX Warning: Citation 'Lemen2011' on page 7 undefined on input line 208.
+LaTeX Warning: Citation 'Su2018-fq' on page 6 undefined on input line 177.
 
 
-LaTeX Warning: Citation 'Lemen2011' on page 7 undefined on input line 208.
+LaTeX Warning: Citation 'Namekata2023-rq' on page 6 undefined on input line 177
+.
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+
+ []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 2
-12.
-(/usr/share/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [7]
-<images/aia_tresp.png, id=111, 462.528pt x 346.896pt>
-File: images/aia_tresp.png Graphic file (type png)
-<use images/aia_tresp.png>
-Package pdftex.def Info: images/aia_tresp.png  used on input line 216.
-(pdftex.def)             Requested size: 396.76001pt x 297.58368pt.
-
-./output/_region_.tex:217: Missing $ inserted.
-<inserted text> 
-                $
-l.217 ...the unit of [DN $cm^5 s^{-1} pixel^{-1}]}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./output/_region_.tex:217: Missing $ inserted.
-<inserted text> 
-                $
-l.217 ...the unit of [DN $cm^5 s^{-1} pixel^{-1}]}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+LaTeX Warning: Citation 'Cheung2015' on page 7 undefined on input line 183.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Citation 'Plowman2013' on page 7 undefined on input line 183.
 
- !name(main.tex) !offset(-104)  [8 <./images/SDO AIA Telescopes.jpg> <./images/
-AIA_telescope_layout.png (PNG copy)>] [9 <./images/aia_tresp.png>]
+
+LaTeX Warning: Citation 'Morgan2019' on page 7 undefined on input line 183.
+
+
+LaTeX Warning: Citation 'Hannah2012' on page 7 undefined on input line 183.
+
+
+LaTeX Warning: Citation 'Massa2023' on page 7 undefined on input line 183.
+
+
+LaTeX Warning: Citation 'Massa2023' on page 7 undefined on input line 188.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
+
+ []
+
+[7]
+<images/ps_plus_full_disk.png, id=84, 476.982pt x 256.91985pt>
+File: images/ps_plus_full_disk.png Graphic file (type png)
+<use images/ps_plus_full_disk.png>
+Package pdftex.def Info: images/ps_plus_full_disk.png  used on input line 192.
+(pdftex.def)             Requested size: 418.80373pt x 225.58835pt.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 193.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 193.
+
+
+LaTeX Warning: Reference `fig:ps_plus_full_disk' on page 1 undefined on input l
+ine 197.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+
+ []
+
+[8 <./images/ps_plus_full_disk.png>]  !name(main.tex) !offset(-79)  [9]
 (output//_region_.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -1248,8 +1252,14 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package rerunfilecheck Info: File `_region_.out' has not changed.
-(rerunfilecheck)             Checksum: 502486CC07D9DBD9BDE195C40A8B2C21;922.
+
+Package rerunfilecheck Warning: File `_region_.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `_region_.out':
+(rerunfilecheck)             Before: A9AF1B2A90E038E423BE12088B769979;204
+(rerunfilecheck)             After:  521A81CDF39CBFC72CF7E80D27DE29FA;1594.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                _region_
@@ -1260,24 +1270,28 @@ Package logreq Info: Writing requests to '_region_.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28195 strings out of 476076
- 570698 string characters out of 5793775
- 1938187 words of memory out of 5000000
- 49967 multiletter control sequences out of 15000+600000
- 603805 words of font info for 128 fonts, out of 8000000 for 9000
+ 28139 strings out of 476076
+ 569879 string characters out of 5793775
+ 1937187 words of memory out of 5000000
+ 49909 multiletter control sequences out of 15000+600000
+ 607989 words of font info for 131 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 73i,10n,101p,1551b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/urw/co
-urier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/s
-hare/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/t
-ype1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.
-pfb>
-Output written on output//_region_.pdf (9 pages, 41920529 bytes).
+ 73i,10n,101p,1230b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{subsubsection.0.0.1} has been referenced but does n
+ot exist, replaced by a fixed one
+
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb
+></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/
+fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/u
+tmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on output//_region_.pdf (9 pages, 4100447 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 116 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 500000)
- 127 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 144 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
+ 29 named destinations out of 1000 (max. 500000)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -35,6 +35,12 @@
     "Pesnell2011"
     "sun_earth_aug_31_2012_cme"
     "Namekata2022-dm"
-    "Gopalswamy2016-nm"))
+    "Gopalswamy2016-nm"
+    "aschwanden2006physics"
+    "Sinha2019"
+    "Athiray2024"
+    "Otsu2024"
+    "Otsu2022"
+    "Mason2014"))
  '(or :bibtex :latex))
 

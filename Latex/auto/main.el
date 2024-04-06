@@ -21,6 +21,7 @@
     "abbreviations"
     "abstract"
     "introduction"
+    "literature_review"
     "methodology"
     "results"
     "article"
