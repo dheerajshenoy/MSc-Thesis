@@ -19,6 +19,99 @@
 
 \refsection{0}
   \datalist[entry]{nty/apasortcite//global/global}
+    \entry{Argiroffi2019}{article}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=c7fe550397b78234e3ff216c43bd762a}{%
+           family={Argiroffi},
+           familyi={A\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=da77eeb877fcdb691bd6743c08a0a664}{%
+           family={Reale},
+           familyi={R\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=153d2c626a2b69d5c50758338f541515}{%
+           family={Drake},
+           familyi={D\bibinitperiod},
+           given={J.\bibnamedelimi J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d12013c17991ea421ddf3524ec56fa5d}{%
+           family={Ciaravella},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=65eeea4ebabc814d5f54c872132d3e45}{%
+           family={Testa},
+           familyi={T\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1deb2282cbd03cac8e235e1978ab09db}{%
+           family={Bonito},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=336da6e4682f3ca301d0e0fe22adfb38}{%
+           family={Miceli},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9167c8259a6d5b02a6d70a6aea15c7c8}{%
+           family={Orlando},
+           familyi={O\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b5bf5e44973f88dfd41a7fe3266391cf}{%
+           family={Peres},
+           familyi={P\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{cc6be446ff3ed877f65139498bc2f0f1}
+      \strng{fullhash}{8081055778fcf5b00c9f8d35c06e9025}
+      \strng{bibnamehash}{8081055778fcf5b00c9f8d35c06e9025}
+      \strng{authorbibnamehash}{8081055778fcf5b00c9f8d35c06e9025}
+      \strng{authornamehash}{cc6be446ff3ed877f65139498bc2f0f1}
+      \strng{authorfullhash}{8081055778fcf5b00c9f8d35c06e9025}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2397-3366}
+      \field{journaltitle}{Nature Astronomy}
+      \field{month}{5}
+      \field{number}{8}
+      \field{title}{A stellar flare−coronal mass ejection event revealed by X-ray plasma motions}
+      \field{volume}{3}
+      \field{year}{2019}
+      \field{pages}{742\bibrangedash 748}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1038/s41550-019-0781-4
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1038/s41550-019-0781-4
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/s41550-019-0781-4
+      \endverb
+    \endentry
     \entry{aschwanden2006physics}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=aad3220b27dca006068b4533183a69f2}{%
@@ -48,12 +141,6 @@
       \field{series}{Springer Praxis Books}
       \field{title}{Physics of the Solar Corona: An Introduction with Problems and Solutions}
       \field{year}{2006}
-      \verb{urlraw}
-      \verb https://books.google.co.in/books?id=P2gQwrSbGOgC
-      \endverb
-      \verb{url}
-      \verb https://books.google.co.in/books?id=P2gQwrSbGOgC
-      \endverb
     \endentry
     \entry{Athiray2024}{article}{}
       \name{author}{2}{}{%
@@ -254,7 +341,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1432-0746}
-      \field{journaltitle}{Astronomy &amp; Astrophysics}
+      \field{journaltitle}{Astronomy \&; Astrophysics}
       \field{month}{3}
       \field{title}{Differential emission measures from the regularized inversion of Hinode and SDO data}
       \field{volume}{539}
@@ -345,7 +432,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1432-0746}
-      \field{journaltitle}{Astronomy &amp; Astrophysics}
+      \field{journaltitle}{Astronomy \&; Astrophysics}
       \field{month}{7}
       \field{title}{The relativistic solar particle event on 28 October 2021: Evidence of particle acceleration within and escape from the solar corona}
       \field{volume}{663}
@@ -1593,6 +1680,99 @@
     \endentry
   \enddatalist
   \datalist[entry]{nty/global//global/global}
+    \entry{Argiroffi2019}{article}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=c7fe550397b78234e3ff216c43bd762a}{%
+           family={Argiroffi},
+           familyi={A\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=da77eeb877fcdb691bd6743c08a0a664}{%
+           family={Reale},
+           familyi={R\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=153d2c626a2b69d5c50758338f541515}{%
+           family={Drake},
+           familyi={D\bibinitperiod},
+           given={J.\bibnamedelimi J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d12013c17991ea421ddf3524ec56fa5d}{%
+           family={Ciaravella},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=65eeea4ebabc814d5f54c872132d3e45}{%
+           family={Testa},
+           familyi={T\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1deb2282cbd03cac8e235e1978ab09db}{%
+           family={Bonito},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=336da6e4682f3ca301d0e0fe22adfb38}{%
+           family={Miceli},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9167c8259a6d5b02a6d70a6aea15c7c8}{%
+           family={Orlando},
+           familyi={O\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b5bf5e44973f88dfd41a7fe3266391cf}{%
+           family={Peres},
+           familyi={P\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{cc6be446ff3ed877f65139498bc2f0f1}
+      \strng{fullhash}{8081055778fcf5b00c9f8d35c06e9025}
+      \strng{bibnamehash}{8081055778fcf5b00c9f8d35c06e9025}
+      \strng{authorbibnamehash}{8081055778fcf5b00c9f8d35c06e9025}
+      \strng{authornamehash}{cc6be446ff3ed877f65139498bc2f0f1}
+      \strng{authorfullhash}{8081055778fcf5b00c9f8d35c06e9025}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2397-3366}
+      \field{journaltitle}{Nature Astronomy}
+      \field{month}{5}
+      \field{number}{8}
+      \field{title}{A stellar flare−coronal mass ejection event revealed by X-ray plasma motions}
+      \field{volume}{3}
+      \field{year}{2019}
+      \field{pages}{742\bibrangedash 748}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1038/s41550-019-0781-4
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1038/s41550-019-0781-4
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/s41550-019-0781-4
+      \endverb
+    \endentry
     \entry{aschwanden2006physics}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=aad3220b27dca006068b4533183a69f2}{%
@@ -1622,12 +1802,6 @@
       \field{series}{Springer Praxis Books}
       \field{title}{Physics of the Solar Corona: An Introduction with Problems and Solutions}
       \field{year}{2006}
-      \verb{urlraw}
-      \verb https://books.google.co.in/books?id=P2gQwrSbGOgC
-      \endverb
-      \verb{url}
-      \verb https://books.google.co.in/books?id=P2gQwrSbGOgC
-      \endverb
     \endentry
     \entry{Athiray2024}{article}{}
       \name{author}{2}{}{%
@@ -1828,7 +2002,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1432-0746}
-      \field{journaltitle}{Astronomy &amp; Astrophysics}
+      \field{journaltitle}{Astronomy \&; Astrophysics}
       \field{month}{3}
       \field{title}{Differential emission measures from the regularized inversion of Hinode and SDO data}
       \field{volume}{539}
@@ -1919,7 +2093,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1432-0746}
-      \field{journaltitle}{Astronomy &amp; Astrophysics}
+      \field{journaltitle}{Astronomy \&; Astrophysics}
       \field{month}{7}
       \field{title}{The relativistic solar particle event on 28 October 2021: Evidence of particle acceleration within and escape from the solar corona}
       \field{volume}{663}

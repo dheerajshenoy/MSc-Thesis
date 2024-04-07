@@ -2,6 +2,14 @@
 \usepackage[left=1.2in, right=1.2in, top=1.2in, bottom=1.2in]{geometry}
 \usepackage{url}
 \usepackage{amsmath}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\sectionmark}[1]{\markboth{#1}{}}
+\fancyhead[L]{\leftmark}
+\fancyhead[R]{\thepage}
+
 % \usepackage{indentfirst}
 \usepackage[backend=biber, style=apa, sorting=nty]{biblatex}
 \usepackage{siunitx}
@@ -29,6 +37,7 @@
 \usepackage{tabularray}
 
 \usepackage{cleveref}
+
 %%% Local Variables:
 %%% mode: latex
 %%% TeX-master: "main"

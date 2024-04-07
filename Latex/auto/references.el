@@ -41,6 +41,7 @@
     "Athiray2024"
     "Otsu2024"
     "Otsu2022"
-    "Mason2014"))
+    "Mason2014"
+    "Argiroffi2019"))
  '(or :bibtex :latex))
 
