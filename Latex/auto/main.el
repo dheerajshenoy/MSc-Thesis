@@ -24,6 +24,7 @@
     "literature_review"
     "methodology"
     "results"
+    "publications_and_conferences"
     "article"
     "art12")
    (LaTeX-add-bibliographies

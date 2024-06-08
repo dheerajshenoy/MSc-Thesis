@@ -1,0 +1,130 @@
+\documentclass[12pt]{article}
+
+\include{includes}
+
+\addbibresource{references.bib}
+
+\setlength{\parindent}{1cm}
+\graphicspath{{../images/}}
+
+\renewcommand*{\bibfont}{\footnotesize}
+\renewcommand{\refname}{\fontseries{m}\selectfont References}
+
+\DeclareCiteCommand{\citep}
+{\usebibmacro{prenote}}
+{\mkbibparens{\textbf{\usebibmacro{cite}}}}
+{\multicitedelim}
+{\usebibmacro{postnote}}
+
+% Variables
+\def \projectname {Investigating Temperature Variations of Solar Corona during Coronal Mass Ejections}
+\def \auth {Dheeraj Vittal Shenoy}
+\def \gnameOne {Mr. Sundar M. N.}
+\def \gnameTwo {Dr. Tanmoy Samanta}
+\def \director {Dr. Asha Rajiv}
+\def \hod {Dr. Sudhakara Reddy}
+\def \mdot {$M_\odot$ }
+
+\linespread{1.5} % Set line spacing to 1.5 times
+
+\DeclareLabeldate{%
+  \field{date}
+  \field{year}
+  \field{eventdate}
+  \field{origdate}
+  \field{urldate}
+}
+
+\begin{document}
+
+\begin{center}
+
+    \thispagestyle{empty}
+
+    \includegraphics[width=0.4\textwidth, height=0.12\textwidth, ]{jain logo.png}
+
+    \vspace{0.5cm}
+
+    \textbf{\Large{{\projectname}}}
+
+    \vspace{0.5cm}
+
+    \Large{Master's thesis submitted by}
+
+    \textbf{\large{\auth}}
+
+    \textbf{\normalsize{USN: 22MSRPH022}}
+
+    \vspace{0.5cm}
+
+    \Large{Under the guidance of}
+
+    \textbf{\large{\gnameOne}}
+
+    \large{and}
+
+    \textbf{\large{\gnameTwo}}
+
+    \vspace{0.5cm}
+
+    To\\
+    Department Of Physics and Electronics \\
+    School Of Sciences, JAIN (Deemed-to-be University)\\
+    Bengaluru\\
+
+    \vspace{1cm}
+    \textbf{\large{April 2024}}
+
+\end{center}
+
+\newpage
+\input{certificate}
+
+\newpage
+\input{declaration}
+
+\newpage
+\input{acknowledgements}
+
+\newpage
+\input{undertaking}
+
+\newpage
+\thispagestyle{empty}
+{\hypersetup{hidelinks}
+  \tableofcontents
+\newpage
+\thispagestyle{empty}
+\listoffigures
+}
+
+\newpage
+
+\thispagestyle{empty}
+\input{abbreviations}
+
+\newpage
+
+\input{abstract}
+\newpage
+
+\input{introduction}
+
+\input{literature_review}
+
+\input{methodology}
+
+\input{results}
+
+\newpage
+\input{publications_and_conferences}
+
+\newpage
+\printbibliography
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: LaTeX
+%%% TeX-master: t
+%%% End:

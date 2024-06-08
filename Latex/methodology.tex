@@ -7,20 +7,20 @@ In the following section, we discuss about the analysis tools used (\cref{sec:da
   \subsection{Data Analysis tools used}
   \label{sec:data_analysis_tools_used}
 
-We have made use of Python programming language for our analysis. We have made extensive use of the following libraries: Numpy, Scipy, Aiapy, Sunpy, Pandas, Matplotlib, Astropy, Natsort, Multiprocessing, Datetime, Moviepy. In addition, we have used the RML method code for DEM analysis, as mentioned in \citep{Massa2023}. We have made use of SSW IDL for obtaining the temperature response curves for AIA. For visual inspection of the CME events, we have used JHelioViewer software. For quick inspection of the FITS file data, we have used FITSExplorer \footnote{link to the github repo: \url{https://github.com/dheerajshenoy/FITSExplorer}}, a software created as a side project by D. V. Shenoy.
+We have made use of Python programming language for our analysis. We have made extensive use of the following libraries: Numpy, Scipy, Aiapy, Sunpy, Pandas, Matplotlib, Astropy, Natsort, Multiprocessing, Datetime, Moviepy. In addition, we have used the RML method code for DEM analysis, as mentioned in \citep{Massa2023}. We have made use of SSW IDL for obtaining the temperature response curves for AIA. For visual inspection of the CME events, we have used JHelioViewer software. For quick inspection of the FITS file data, we have used FITSExplorer \footnote{link to the github repo: \url{https://github.com/dheerajshenoy/FITSExplorer}}, a software created as a side project by Dheeraj Vittal Shenoy.
 
 \subsection{Event Selection}
 \label{sec:selection_of_events}
 
-We have chosen three CME events that have erupted on 2011 August 04, 2012 August 31 and 2021 October 28. The Solar and Heliospheric Observatory's  (SOHO) Large Angle and Spectrometric Coronagraph Experiment (LASCO) C2 (SOHO/LASCO) images of the CMEs obtained from the SOHO/LASCO CME catalog (\url{https://cdaw.gsfc.nasa.gov/CME_list/}) are given in \cref{fig:cme_events_soho_pics} and \cref{fig:cme_events_soho_pics_aia193}. Brief description of the events is given below:\\
+We have chosen three CME events that have erupted on 2011 August 04, 2012 August 31 and 2021 October 28. The Solar and Heliospheric Observatory's  (SOHO) Large Angle and Spectrometric Coronagraph Experiment (LASCO) C2 (SOHO/LASCO) images of the CMEs obtained from the SOHO/LASCO CME catalog (\url{https://cdaw.gsfc.nasa.gov/CME_list/}) are given in \cref{fig:cme_events_soho_pics} (running difference image) and \cref{fig:cme_events_soho_pics_aia193} (C2 image with AIA 193 $\AA$ filter). Brief description of the events is given below:\\
 
 \begin{enumerate}
 
-        \item\textbf{2011 August 04}: This event has been refered from \citep{Mason2016} in which it is the \nth{20} Event. The event started at around 04:12 UT. This event occured from the source location N19W36 associated with the active region AR 11261.
+        \item\textbf{2011 August 04}: This event has been refered from \citep{Mason2016} in which it is the \nth{20} Event. The event started at around 04:12 UT. This event occured from the source location N19W36 associated with the active region AR 11261.\\
 
-        \item\textbf{2012 August 31}: This CME event was associated with a long filament eruption and it erupted around 19:49 UT. The CME associated with the filament travelled at over 900 miles per second.
+        \item\textbf{2012 August 31}: This CME event was associated with a long filament eruption and it erupted around 19:49 UT. The CME associated with the filament travelled at over 900 miles per second.\\
 
-    \begin{figure}[ht]
+    \begin{figure}[h!]
         \centering
         \includegraphics[width=0.5\textwidth]{images/aug_31_2012_event_sun_earth_image.jpg}
         \caption[Image of the Earth to scale of the 2012 August]{Image of the Earth to scale with the filament eruption of \nth{31} August 2012. Image credit: \url{https://svs.gsfc.nasa.gov/11095}}
@@ -87,6 +87,7 @@ The SDO/AIA data is accessed through the JSOC portal (\url{http://jsoc.stanford.
 
 The downloaded FITS data files are 4096 $\times$ 4096 pixels in dimension. Data downloaded from the portal is level 1, which has been flat-fielded and processed to remove bad pixels and spikes (only for EUV channels), but not registered to preserve precise pixel values. As different channels of AIA have different roll angles, multi-wavelength analysis of any kind with level 1.0 data is problematic. Also, the pointing information contained in the headers of these FITS images will not be accurate, as it would have undergone changes compared to the information stored when the image was created. As mentioned in the SDO Data Analysis Guide, we have to use \texttt{aia\_prep.pro} function in Solar Software (SSW) IDL to correct or prepare the data used. Additionally, the images are downscaled from their original 4096 $\times$ 4096 pixel dimension to 512 $\times$ 512 pixels using sunpy as obtaining DEM solutions for the 4k dimension would be really time consuming and unnecessary as we are comparing full disk and point source DEM solutions.\\
 
+\noindent
 The \textbf{aiapy} library is used to carry out the necessary procedure like `\textbf{Pointing correction}' and `\textbf{Registration}' as mentioned in the documentation of aiapy, to convert level 1 data to level 1.5. Pointing correction updates the keywords in the header of the FITS file to the latest information and Registration rotates, scales and translates the image so that the Solar north is aligned with the solar north and each pixel is 0.6 arcsec cross, and the center of the Sun is at the center of the image. Now, after this calibration, the images are good for multi-wavelength analysis. Finally, the images are normalized with respect to their exposure time. This is done because the images are captured under different lighting conditions or exposure settings, which leads to incorrect analysis when performing a multi-wavelength comparison. Without this, differences in brightness due to varying exposure times could distort interpretations and analysis.
 
 \subsection{DEM Analysis}
@@ -96,14 +97,14 @@ Direct analysis of light curve might seem like a good choice as the effects of C
 
 \subsubsection{Emission Measure}
 
-Emission measure (EM) is a quantity used in astrophysics to describe the amount of emitting material along the line of sight in a particular volume, usually in the context of a hot or ionized gas, such as a stellar atmosphere. It provides a measure of the emission intensity of a given region at various temperatures. It is expressed in units of $cm^{-3}$ or $cm^{-5}$, representing the number of electrons  emitting radiation per unit volume or per unit area, respectively.\\
+Emission measure (EM) is a quantity used in astrophysics to describe the amount of emitting material along the line of sight in a particular column length or volume, usually in the context of a hot or ionized gas, such as a stellar atmosphere. It provides a measure of the emission intensity of a given region at various temperatures. It is expressed in units of $cm^{-3}$ or $cm^{-5}$, representing the number of electrons  emitting radiation measure in given volume or area respectively.
 
-Emission measure is related to the number density of electrons $n_e(T)$  at a particular temperature T, in a volume $dV$ of plasma, in a particular temperature range $T_1$ and $T_2$, along the line of sight, given by,
+Emission measure is related to the number density of electrons $n_e$, in a column length $dh$ of plasma, along the line of sight, given by,
 
 \vspace{-0.75cm}
 \begin{center}
     \begin{equation}
-        EM = \int_{T_1}^{T_2} n_e^2(T) \hspace{0.1cm} dV
+        EM = \int_h n_e^2 \hspace{0.1cm} dh
     \end{equation}
 \end{center}
 
@@ -111,17 +112,17 @@ Emission measure is a crucial parameter in understanding the energetics and phys
 
 \subsubsection{Differential Emission Measure}
 
-Differential Emission Measure (DEM) is used to describe the distribution of emitting material at different temperatures in a given volume. It is a measurement of the amount of plasma at various temperatures per unit volume along the sight. DEM helps us understand how much material is present at different temperature in stellar atmosphere. This is crucial for studying the physical conditions and processes occuring in stellar atmospheres. DEM is usually expressed in units of $cm^{-5}K^{-1}$, representing the number of particles emitting radiation at a particular temperature per unit volume.
+Differential Emission Measure (DEM) is used to describe the distribution of emitting material at different temperatures in a given column. It is a measurement of the amount of plasma at various temperatures along the line of sight. DEM helps us understand how much material is present at different temperature in stellar atmosphere. This is crucial for studying the physical conditions and processes occuring in stellar atmospheres. DEM is usually expressed in units of $cm^{-5}K^{-1}$, representing the number of particles emitting radiation at a particular temperature measured along the line of sight.
 
 \vspace{-.75cm}
 \everymath{\displaystyle}
 \begin{center}
     \begin{equation}
-        DEM = f(T) = \frac{d}{dT}\hspace{0.1cm} EM = n_e^2(T) \hspace{0.1cm} \frac{dV}{dT}
+        DEM(T) = n_e^2(T) \hspace{0.1cm} \frac{dh}{dT}
     \end{equation}
 \end{center}
 
-The integral of $DEM(T)$ over a finite temperature range is called as the emission measure. This quantity helps to understand the thermal structure of a stellar atmosphere, providing insight into the distribution of temperatures and the heating mechanisms that operate in a particular region. DEM arises from certain aspects of coronal emission line. Optically thin property of corona, scaling of emission line intensity with density squared $n_e(T)^2$(for most lines) and temperature response function $K(T)$ that peaks at certain temperature for each of the lines. If $K_i(T)$ is the temperature response function of a particular channel, then the count-rate $y_i$ of the $i^{th}$ EUV channel is related to the temperature distribution of coronal plasma as,
+The integral of $DEM(T)$ over a finite temperature range is called as the emission measure. This quantity helps to understand the thermal structure of a stellar atmosphere, providing insight into the distribution of temperatures and the heating mechanisms that operate in a particular region. DEM arises from certain aspects of coronal emission line. Optically thin property of corona, scaling of emission line intensity with density squared $n_e^2(T)$(for most lines) and temperature response function $K(T)$ that peaks at certain temperature for each of the lines. If $K_i(T)$ is the temperature response function of a particular channel, then the count-rate $y_i$ of the $i^{th}$ EUV channel is related to the temperature distribution of coronal plasma as \citep{Cheung2015},
 
 \vspace{-.75cm}
 \begin{center}
@@ -131,12 +132,7 @@ The integral of $DEM(T)$ over a finite temperature range is called as the emissi
     \end{equation}
 \end{center}
 
-where
-\begin{equation}
-    DEM(T)dT = \int_0^{\infty}n_e^2(T)dV
-\end{equation}
-
-\noindent From $DEM$, parameters like plasma density, thermal X-ray flux, thermal energy and weighted temperature emission measure etc. can be estimated \citep{Su2018-fq}. In solar research, DEM aids in understanding the Sun's atmosphere, while in stellar astrophysics, it contributes to characterizing other stars, enhancing our knowledge of stellar diversity and evolution \citep{Namekata2023-rq}.
+From $DEM$, parameters like plasma density, thermal X-ray flux, thermal energy and weighted temperature emission measure etc. can be estimated \citep{Su2018-fq}. In solar research, DEM aids in understanding the Sun's atmosphere, while in stellar astrophysics, it contributes to characterizing other stars, enhancing our knowledge of stellar diversity and evolution \citep{Namekata2023-rq}.
 
 \subsubsection{Differential Emission Measure Inversion}
 
@@ -156,14 +152,14 @@ After calibration (registering, pointing correction and exposure time normalizat
     \label{fig:dem_img_aug_4_2011}
 \end{figure}
 
+Next step is to generate the point source from the full disk, which we refer to as ``Pointification''. This involves the conversion of the full disk image of Sun to a point source, which mimics a distant star. The original image of 4096 $\times$ 4096 pixels dimension is averaged and new image having 512 $\times$ 512 pixels dimension is created with the pixel value at (256, 256) of the image (midpoint of the image) equal to the calculated average image pixel value. The average values of 4096 $\times$ 4096 pixel image dimension has been considered and not the 512 one so as to not allow the errors due to the resampling of the image affect the average pixel intensity value significantly. \Cref{fig:ps_plus_full_disk} shows the result of pointification procedure. After pointification, DEM profile is reconstructed from these images. These act like DEM profiles of a point source/star.\\
+
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.95\textwidth]{images/ps_plus_full_disk.png}
     \caption[Full disk and pointified image of Sun]{\textbf{(a)} shows the full disk image of Sun in the 193 $\AA$ channel, \textbf{(b)} shows the image after pointification.}
     \label{fig:ps_plus_full_disk}
 \end{figure}
-
-Next step is to generate the point source from the full disk, which we refer to as ``Pointification''. This involves the conversion of the full disk image of Sun to a point source, which mimics a distant star. The original image of 4096 $\times$ 4096 pixels dimension is averaged and new image having 512 $\times$ 512 pixels dimension is created with the pixel value at (256, 256) of the image (midpoint of the image) equal to the calculated average image pixel value. The average values of 4096 $\times$ 4096 pixel image dimension has been considered and not the 512 one so as to not allow the errors due to the resampling of the image affect the average pixel intensity value significantly. \Cref{fig:ps_plus_full_disk} shows the result of pointification procedure. After pointification, DEM profile is reconstructed from these images. These act like DEM profiles of a point source/star.\\
 
 The temperature logT can be grouped into discrete ranges with the corresponding dem solutions being group by averaging. The grouping interval depends on the temperature interval used for the analysis, which in our case is 0.15 K. We have grouped three consecutive temperature intervals (eg: 5.85, 6.0, 6.15). This is called as temperature binning. Binning helps in reducing the impact of noise or uncertainities in the data. By averaging the emission measuresments for each temperature bin, we can smoothen fluctuations and obtain a good estimate of the DEM.
 

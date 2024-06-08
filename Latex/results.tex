@@ -23,7 +23,9 @@
     \label{fig:dem_ts_oct_28_2021}
 \end{figure}
 
-In \cref{fig:dem_ts_aug_04_2011}(a) and \cref{fig:dem_ts_aug_04_2011}(b), we can observe the coronal dimming or decrease in the DEM value after the event spike. But, in \cref{fig:dem_ts_aug_04_2011}(c) no dimming is observed. Dimming is the most prominent in logT = [5.85, 6.15]. This means that the mass loss of coronal plasma is mostly seen in this temperature range. The sudden increase in the DEM curve is due to the solar flare which is associated with the CME. There is very high correlation for the first two temperature ranges, but there is little to no correlation in the DEM profiles of the full disk and point source for the temperature range logT=[6.45, 6.75]. For temperature ranges greater than logT=6.45, the correlation is almost 0. We make use of Pearson's Correlation coeffecient (\cref{eqn:pearsonr}) to find out the amount of correlation between the point source and full disk DEM, for which we use \texttt{pearsonr} function from the \texttt{scipy} library in Python. The pearson correlation coeffecient r between two datasets \textbf{x} and \textbf{y} is calculated using the formula,
+In \cref{fig:dem_ts_aug_04_2011}(a) and \cref{fig:dem_ts_aug_04_2011}(b), we can observe the coronal dimming or decrease in the DEM value after the event spike. But, in \cref{fig:dem_ts_aug_04_2011}(c) no dimming is observed. Dimming is the most prominent in logT = [5.85, 6.15]. This means that the mass loss of coronal plasma is mostly seen in this temperature range. The sudden increase in the DEM curve is due to the solar flare which is associated with the CME. There is very high correlation for the first two temperature ranges, but there is little to no correlation in the DEM profiles of the full disk and point source for the temperature range logT=[6.45, 6.75]. For temperature ranges greater than logT=6.45, the correlation is almost 0. We make use of Pearson's Correlation coeffecient (\cref{eqn:pearsonr}) to find out the amount of correlation between the point source and full disk DEM, for which we use \texttt{pearsonr} function from the \texttt{scipy} library in Python.\\
+
+The Pearson correlation coeffecient r between two datasets \textbf{x} and \textbf{y} is calculated using the formula,
 
 \begin{equation}
     \label{eqn:pearsonr}
@@ -58,6 +60,7 @@ We see a discrepancy in the value of DEM between the point source and full disk 
         \centering
         \includegraphics[width=\textwidth]{images/dem_profile_before_event_2011_aug_04.png}
         \caption{Before event (02:21 UT)}
+        \label{fig:dem_pro_aug_04_2011_a}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.3\textwidth}
@@ -71,6 +74,7 @@ We see a discrepancy in the value of DEM between the point source and full disk 
         \centering
         \includegraphics[width=\textwidth]{images/dem_profile_after_event_2011_aug_04.png}
         \caption{After event (10:49 UT)}
+        \label{fig:dem_pro_aug_04_2011_c}
     \end{subfigure}
 
     \caption[DEM profile for \nth{4} August 2011 event]{$DEM$ profile before, during and after the flaring event of \nth{4} August 2011. The red and blue curves correspond to point source and full disk source respectively. $DEM_{ps}$ represents the DEM of the point source.}
@@ -83,6 +87,7 @@ We see a discrepancy in the value of DEM between the point source and full disk 
         \centering
         \includegraphics[width=\textwidth]{images/dem_profile_before_event_2012_aug_31.png}
         \caption{Before event (17:19 UT)}
+        \label{fig:dem_pro_aug_31_2012_a}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.3\textwidth}
@@ -96,6 +101,7 @@ We see a discrepancy in the value of DEM between the point source and full disk 
         \centering
         \includegraphics[width=\textwidth]{images/dem_profile_after_event_2012_aug_31.png}
         \caption{After event (\nth{1} Sep 2011 03:57 UT)}
+        \label{fig:dem_pro_aug_31_2012_c}
     \end{subfigure}
 
     \caption[DEM profile for \nth{31} August 2012 Event]{$DEM$ profile before, during and after the flaring event of \nth{31} August 2012.}
@@ -108,32 +114,37 @@ We see a discrepancy in the value of DEM between the point source and full disk 
         \centering
         \includegraphics[width=\textwidth]{images/dem_profile_before_event_2021_oct_28.png}
         \caption{Before event (13:23 UT)}
+        \label{fig:dem_pro_oct_28_2021_a}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.3\textwidth}
         \centering
         \includegraphics[width=\textwidth]{images/dem_profile_during_event_2021_oct_28.png}
         \caption{During event (15:35 UT)}
+        \label{fig:dem_pro_oct_28_2021_b}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.3\textwidth}
         \centering
         \includegraphics[width=\textwidth]{images/dem_profile_after_event_2021_oct_28.png}
         \caption{After event (17:29 UT)}
+        \label{fig:dem_pro_oct_28_2021_c}
     \end{subfigure}
     \caption[DEM profile for \nth{28} October 2021 event]{$DEM$ profile before, during and after the flaring event of \nth{28} October 2021.}
     \label{fig:dem_pro_oct_28_2021}
 \end{figure}
 
-The temperature distribution of the plasma at different sections of an event can be studied through it's DEM profile (DEM profile is a plot of logT vs DEM). The DEM profiles before, during and after the event has been shown in \cref{fig:dem_pro_aug_04_2011}, \cref{fig:dem_pro_aug_31_2012} and \cref{fig:dem_pro_oct_28_2021} for the events of \nth{4} August 2011, \nth{31} August 2012 and \nth{28} October 2021 respectively.
+The temperature distribution of the plasma at different interval of an event can be studied through it's DEM profile (DEM profile is a plot of logT vs DEM). The DEM profiles before, during and after the event has been shown in \cref{fig:dem_pro_aug_04_2011}, \cref{fig:dem_pro_aug_31_2012} and \cref{fig:dem_pro_oct_28_2021} for the events of \nth{4} August 2011, \nth{31} August 2012 and \nth{28} October 2021 respectively. We now look into variations observed in each profile in detail.\\
 
-In \cref{fig:dem_pro_aug_04_2011} and \cref{fig:dem_pro_aug_31_2012} the DEM profile (full disk + point source) before and after the event looks similar. \Cref{fig:dem_pro_aug_04_2011_b} shows the increase in full disk emission during the event in the range logT $\sim$ [6.5, 7.0] and point source emission increases in the range logT $\sim$ [6.125, 6.25]. \Cref{fig:dem_pro_aug_31_2012_b} shows a slight increase in the full disk emission in the range logT $\sim$ [6.6, 7.0], but not change in the point source DEM is observed.
+\Cref{fig:dem_pro_aug_04_2011} shows the increase in full disk emission during the event in the interval $6.125 \le log_{10}T \le 7.5$ and point source emission increased in the intervals $6.125 \le log_{10}T \le 6.5$ and $6.75 \le log_{10}T \le 6.875$. Reduction in emission for both full disk and point source is observed in the interval $5.85 \le log_{10}T \le 6.125$. After the event (\cref{fig:dem_pro_aug_04_2011_c}), the temperature of the plasma has slightly decreased in the interval $6.0 \le log_{10}T \le 6.125$ and $6.625 \le log_{10}T \le 7.0$ .\\
 
-\Cref{fig:dem_pro_oct_28_2021} shows increase in emission of full disk in the range logT $\sim$ [6.25, 7.25] during the event. But, there is slight increase in the emission in this range after the event (compared to before the event), which is not observed in the previous two events.
+\Cref{fig:dem_pro_aug_31_2012} shows a slight increase in the full disk emission during the event in the interval $6.625 \le log_{10}T \le 7.0$, but no change in the point source DEM is observed in this interval. Point source DEM shows a slight reduction in the interval $5.85 \le log_{10}T \le 6.0$ and increased emission in the interval $6.125 \le log_{10}T \le 6.25$. After the event (\cref{fig:dem_pro_aug_31_2012_c}), increased emission in both point source and full disk is found in the interval $5.85 \le log_{10}T \le 6.0$ showing signs of recovery of plasma in this temperature interval to it's pre-event state, and reduction in emission in the interval $6.125 \le log_{10}T \le 7.0$ in the case of full disk and for point source, reduction is seen only in the interval $6.125 \le log_{10}T \le 6.25$.\\
+
+\Cref{fig:dem_pro_oct_28_2021} shows increase in emission of full disk in the interval $6.0 \le log_{10}T \le 7.5$ during the event. Reduction is observed in the interval $5.85 \le log_{10}T \le 6.0$. Increase in point source emission can be seen in the interval $6.125 \le log_{10}T \le 6.25$. Reduction is observed in the interval $6.75 \le log_{10}T \le 7.125$. Maximum change in full disk emission is seen at $6.75 \le log_{10}T \le 7.0$ and for point source in interval $6.125 \le log_{10}T \le 6.25$ during the event. After the event (\cref{fig:dem_pro_oct_28_2021_c}), point source emission reduction is observed in intervals $5.85 \le log_{10}T \le 6.0$ and $6.125 \le log_{10}T \le 6.5$, recovering back to the pre-event state. In the case of full disk, reduction is seen in intervals $5.85 \le log_{10}T \le 6.0$, $6.0 \le log_{10}T \le 6.125$, $6.25 \le log_{10}T \le 7.5$, recovering mostly to it's pre-event state, with the notable exception that there is increase in the emission at higher temperature compared to the pre-event state, and reduction in emission in the lower temperature interval.
 
 \section{Discussion and Conclusion}
 
-In this study, we have presented a comprehensive analysis of CMEs on the Sun through DEM analysis, incorporating innovative methodologies and novel approaches. We have analyzed three CME events, each associated with unique solar phenomena like coronal dimming, filament eruption and ground level enhancement CME event. Our DEM analysis shows that the maximum dimming depth temperature range for the event of \nth{4} August 2011 has been seen in the range logT = [5.85, 6.15], shedding light into the underlying physical mechanisms driving dimming phenomena. We demonstrated the process of converting full disk image to a point source, to study the Sun-star CME relation. The correlation between the full disk and point source DEM is high in the temperature range below logT $\sim$ 6.45. Discrepancy in the value of DEM is observed between the point source and the full disk which might be because of many reasons like naively averaging the entire image when reducing to a point source, error in the DEM inversion.\\
+In this study, we have presented a comprehensive analysis of CMEs on the Sun through DEM analysis, incorporating innovative methodologies and novel approaches. We have analyzed three CME events, each associated with unique solar phenomena like coronal dimming, filament eruption and ground level enhancement CME event. Our DEM analysis shows that the maximum dimming depth temperature range for the event of \nth{4} August 2011 has been seen in the range logT = [5.85, 6.15], shedding light into the underlying physical mechanisms driving dimming phenomena. We demonstrated the process of converting full disk image to a point source (called as pointification), to study the Sun-star CME relation. The correlation between the full disk and point source DEM is high in the temperature range below logT $\sim$ 6.45. Discrepancy in the value of DEM is observed between the point source and the full disk which might be because of many reasons like naively averaging the entire image when reducing to a point source, error in the DEM inversion. We have looked into the variations in the temperature of the coronal plasma before, during and after the event. We observe an increase in emission at temperatures in the range $6.25 \le logT \le 7.0$ during the event. Comparing the DEM profiles before and after the event, there is a slight increase and decrease in the distribution of emission in these events.\\
 
 The pointification of the full disk image has rooms for improvement, which has to be taken care of during further studies. Approach like naively directly averaging the pixel values of images and reduction to point source poses problems at places where the corresponding DEM solutions either do not exist or is very minute in the full disk image, leading to incorrect averaging of pixels for the case of point source. Hence, careful reduction to point source is necessary. Moving forward, we plan to improve the point source reduction process, increase the temperature interval to increase the accuracy of the DEM solutions and look at more events, so that we can do a statistical analysis, which would enable us to check if the correlations observed actually hold for a larger set of events. Additionally, we also would look at CME events originating at different regions on the Sun and understand it's effect on the coronal dimming and temperature variations of the Solar corona.
 

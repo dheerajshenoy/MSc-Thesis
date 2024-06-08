@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.24)  6 APR 2024 10:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.24)  9 APR 2024 08:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -146,6 +146,19 @@ LaTeX Info: Redefining \Relbar on input line 971.
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
+(/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip53
+\f@nch@O@elh=\skip54
+\f@nch@O@erh=\skip55
+\f@nch@O@olh=\skip56
+\f@nch@O@orh=\skip57
+\f@nch@O@elf=\skip58
+\f@nch@O@erf=\skip59
+\f@nch@O@olf=\skip60
+\f@nch@O@orf=\skip61
+)
 (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
 
@@ -226,14 +239,14 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \blx@sectionciteorderinternal@0=\count319
 \blx@entrysetcounter=\count320
 \blx@biblioinstance=\count321
-\labelnumberwidth=\skip53
-\labelalphawidth=\skip54
-\biblabelsep=\skip55
-\bibitemsep=\skip56
-\bibnamesep=\skip57
-\bibinitsep=\skip58
-\bibparsep=\skip59
-\bibhang=\skip60
+\labelnumberwidth=\skip62
+\labelalphawidth=\skip63
+\biblabelsep=\skip64
+\bibitemsep=\skip65
+\bibnamesep=\skip66
+\bibinitsep=\skip67
+\bibparsep=\skip68
+\bibhang=\skip69
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language5
@@ -332,20 +345,20 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedcitation=\count400
 \c@pageref=\count401
 \c@savedpageref=\count402
-\shorthandwidth=\skip61
-\shortjournalwidth=\skip62
-\shortserieswidth=\skip63
-\shorttitlewidth=\skip64
-\shortauthorwidth=\skip65
-\shorteditorwidth=\skip66
-\locallabelnumberwidth=\skip67
-\locallabelalphawidth=\skip68
-\localshorthandwidth=\skip69
-\localshortjournalwidth=\skip70
-\localshortserieswidth=\skip71
-\localshorttitlewidth=\skip72
-\localshortauthorwidth=\skip73
-\localshorteditorwidth=\skip74
+\shorthandwidth=\skip70
+\shortjournalwidth=\skip71
+\shortserieswidth=\skip72
+\shorttitlewidth=\skip73
+\shortauthorwidth=\skip74
+\shorteditorwidth=\skip75
+\locallabelnumberwidth=\skip76
+\locallabelalphawidth=\skip77
+\localshorthandwidth=\skip78
+\localshortjournalwidth=\skip79
+\localshortserieswidth=\skip80
+\localshorttitlewidth=\skip81
+\localshortauthorwidth=\skip82
+\localshorteditorwidth=\skip83
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -487,8 +500,8 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \ar@mcellbox=\box62
 \extrarowheight=\dimen166
 \NC@list=\toks24
-\extratabsurround=\skip75
-\backup@length=\skip76
+\extratabsurround=\skip84
+\backup@length=\skip85
 \ar@cellbox=\box63
 ))
 (/usr/share/texmf-dist/tex/latex/psnfss/mathptmx.sty
@@ -544,7 +557,7 @@ Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
 )
 (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip77
+\labelindent=\skip86
 \enit@outerparindent=\dimen168
 \enit@toks=\toks26
 \enit@inbox=\box64
@@ -734,24 +747,10 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip78
+\Hy@SectionHShift=\skip87
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 24.
+Package hyperref Info: Option `colorlinks' set `true' on input line 32.
 
-(/usr/share/texmf-dist/tex/latex/cleveref/cleveref.sty
-Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
-Package cleveref Info: `hyperref' support loaded on input line 2370.
-LaTeX Info: Redefining \cref on input line 2370.
-LaTeX Info: Redefining \Cref on input line 2370.
-LaTeX Info: Redefining \crefrange on input line 2370.
-LaTeX Info: Redefining \Crefrange on input line 2370.
-LaTeX Info: Redefining \cpageref on input line 2370.
-LaTeX Info: Redefining \Cpageref on input line 2370.
-LaTeX Info: Redefining \cpagerefrange on input line 2370.
-LaTeX Info: Redefining \Cpagerefrange on input line 2370.
-LaTeX Info: Redefining \labelcref on input line 2370.
-LaTeX Info: Redefining \labelcpageref on input line 2370.
-)
 (/usr/share/texmf-dist/tex/generic/nth/nth.sty
 Package: nth 2002/02/27
 )
@@ -846,6 +845,20 @@ Package: tabularray 2024-02-16 v2024A Typeset tabulars and arrays with LaTeX3
 \l__tblr_cell_wd_dim=\dimen291
 \l__tblr_cell_ht_dim=\dimen292
 \l__tblr_diag_box=\box90
+)
+(/usr/share/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
 ))
 \@quotelevel=\count473
 \@quotereset=\count474
@@ -998,249 +1011,125 @@ Package hyperref Info: Link coloring ON on input line 38.
 \openout4 = `_region_.out'.
 
 
- !name(methodology.tex) !offset(-40) 
+ !name(acknowledgements.tex) !offset(-40) 
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 43.
+ 47.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 43.
+ 47.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 43.
+ 47.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 43.
+ 47.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
-
- []
-
-
-LaTeX Warning: Reference `sec:data_analysis_tools_used' on page 1 undefined on 
-input line 45.
-
-
-LaTeX Warning: Reference `sec:selection_of_events' on page 1 undefined on input
- line 45.
-
-
-LaTeX Warning: Reference `sec:data_used' on page 1 undefined on input line 45.
-
-
-LaTeX Warning: Reference `sec:data_pre_processing' on page 1 undefined on input
- line 45.
-
-
-LaTeX Warning: Reference `sec:data_analysis_procedure' on page 1 undefined on i
-nput line 45.
-
-
-LaTeX Warning: Citation 'Massa2023' on page 1 undefined on input line 50.
-
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
 
-LaTeX Warning: Reference `fig:cme_events_soho_pics' on page 1 undefined on inpu
-t line 55.
-
-
-LaTeX Warning: Reference `fig:cme_events_soho_pics_aia193' on page 1 undefined 
-on input line 55.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
+Underfull \hbox (badness 10000) in paragraph at lines 51--53
 
  []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
+
+ []
+
+<images/sign.png, id=4, 500.87125pt x 501.875pt>
+File: images/sign.png Graphic file (type png)
+<use images/sign.png>
+Package pdftex.def Info: images/sign.png  used on input line 72.
+(pdftex.def)             Requested size: 62.60875pt x 62.7342pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [1
+
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
 /enc/dvips/base/8r.enc}]
 
-LaTeX Warning: Citation 'Mason2016' on page 2 undefined on input line 59.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-<images/aug_31_2012_event_sun_earth_image.jpg, id=23, 1927.2pt x 1204.5pt>
-File: images/aug_31_2012_event_sun_earth_image.jpg Graphic file (type jpg)
-<use images/aug_31_2012_event_sun_earth_image.jpg>
-Package pdftex.def Info: images/aug_31_2012_event_sun_earth_image.jpg  used on 
-input line 65.
-(pdftex.def)             Requested size: 220.42372pt x 137.75185pt.
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-LaTeX Warning: Citation 'Klein2022' on page 2 undefined on input line 70.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-
- []
-
-[2 <./images/aug_31_2012_event_sun_earth_image.jpg>]
-<images/soho_cme_aug_04_2011.png, id=36, 513.92pt x 513.92pt>
-File: images/soho_cme_aug_04_2011.png Graphic file (type png)
-<use images/soho_cme_aug_04_2011.png>
-Package pdftex.def Info: images/soho_cme_aug_04_2011.png  used on input line 77
-.
-(pdftex.def)             Requested size: 132.25557pt x 132.25157pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
-<images/soho_cme_aug_31_2012.png, id=37, 513.92pt x 513.92pt>
-File: images/soho_cme_aug_31_2012.png Graphic file (type png)
-<use images/soho_cme_aug_31_2012.png>
-Package pdftex.def Info: images/soho_cme_aug_31_2012.png  used on input line 83
-.
-(pdftex.def)             Requested size: 132.25557pt x 132.25157pt.
-<images/soho_cme_oct_28_2021.png, id=38, 513.92pt x 513.92pt>
-File: images/soho_cme_oct_28_2021.png Graphic file (type png)
-<use images/soho_cme_oct_28_2021.png>
-Package pdftex.def Info: images/soho_cme_oct_28_2021.png  used on input line 89
-.
-(pdftex.def)             Requested size: 132.25557pt x 132.25157pt.
-<images/soho_cme_aug_04_2011_aia193.png, id=39, 513.92pt x 513.92pt>
-File: images/soho_cme_aug_04_2011_aia193.png Graphic file (type png)
-<use images/soho_cme_aug_04_2011_aia193.png>
-Package pdftex.def Info: images/soho_cme_aug_04_2011_aia193.png  used on input 
-line 100.
-(pdftex.def)             Requested size: 132.25557pt x 132.25157pt.
-<images/soho_cme_aug_31_2012_aia193.png, id=40, 513.92pt x 513.92pt>
-File: images/soho_cme_aug_31_2012_aia193.png Graphic file (type png)
-<use images/soho_cme_aug_31_2012_aia193.png>
-Package pdftex.def Info: images/soho_cme_aug_31_2012_aia193.png  used on input 
-line 106.
-(pdftex.def)             Requested size: 132.25557pt x 132.25157pt.
-<images/soho_cme_oct_28_2021_aia193.png, id=41, 513.92pt x 513.92pt>
-File: images/soho_cme_oct_28_2021_aia193.png Graphic file (type png)
-<use images/soho_cme_oct_28_2021_aia193.png>
-Package pdftex.def Info: images/soho_cme_oct_28_2021_aia193.png  used on input 
-line 112.
-(pdftex.def)             Requested size: 132.25557pt x 132.25157pt.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 125.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 125.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 125.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 125.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 125.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 125.
-
-
-LaTeX Warning: Citation 'Massa2023' on page 3 undefined on input line 125.
-
-[3 <./images/soho_cme_aug_04_2011.png> <./images/soho_cme_aug_31_2012.png> <./i
-mages/soho_cme_oct_28_2021.png> <./images/soho_cme_aug_04_2011_aia193.png> <./i
-mages/soho_cme_aug_31_2012_aia193.png> <./images/soho_cme_oct_28_2021_aia193.pn
-g>]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
-30.
- (/usr/share/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
-
- []
-
-
-LaTeX Warning: Citation 'Su2018-fq' on page 6 undefined on input line 177.
-
-
-LaTeX Warning: Citation 'Namekata2023-rq' on page 6 undefined on input line 177
-.
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
-
- []
-
-
-LaTeX Warning: Citation 'Cheung2015' on page 7 undefined on input line 183.
-
-
-LaTeX Warning: Citation 'Plowman2013' on page 7 undefined on input line 183.
-
-
-LaTeX Warning: Citation 'Morgan2019' on page 7 undefined on input line 183.
-
-
-LaTeX Warning: Citation 'Hannah2012' on page 7 undefined on input line 183.
-
-
-LaTeX Warning: Citation 'Massa2023' on page 7 undefined on input line 183.
-
-
-LaTeX Warning: Citation 'Massa2023' on page 7 undefined on input line 188.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
-
- []
-
-[7]
-<images/ps_plus_full_disk.png, id=84, 476.982pt x 256.91985pt>
-File: images/ps_plus_full_disk.png Graphic file (type png)
-<use images/ps_plus_full_disk.png>
-Package pdftex.def Info: images/ps_plus_full_disk.png  used on input line 192.
-(pdftex.def)             Requested size: 418.80373pt x 225.58835pt.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 193.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 193.
-
-
-LaTeX Warning: Reference `fig:ps_plus_full_disk' on page 1 undefined on input l
-ine 197.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
-
- []
-
-[8 <./images/ps_plus_full_disk.png>]  !name(main.tex) !offset(-79)  [9]
-(output//_region_.aux)
+[2 <./images/sign.png>]  !name(main.tex) !offset(27)  (output//_region_.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1249,17 +1138,8 @@ L3 programming layer <2024-02-20>
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `_region_.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `_region_.out':
-(rerunfilecheck)             Before: A9AF1B2A90E038E423BE12088B769979;204
-(rerunfilecheck)             After:  521A81CDF39CBFC72CF7E80D27DE29FA;1594.
+Package rerunfilecheck Info: File `_region_.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                _region_
@@ -1270,28 +1150,19 @@ Package logreq Info: Writing requests to '_region_.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28139 strings out of 476076
- 569879 string characters out of 5793775
- 1937187 words of memory out of 5000000
- 49909 multiletter control sequences out of 15000+600000
- 607989 words of font info for 131 fonts, out of 8000000 for 9000
+ 27909 strings out of 476076
+ 563751 string characters out of 5793775
+ 1935187 words of memory out of 5000000
+ 49735 multiletter control sequences out of 15000+600000
+ 576223 words of font info for 72 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 73i,10n,101p,1230b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{subsubsection.0.0.1} has been referenced but does n
-ot exist, replaced by a fixed one
-
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb
-></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/
-fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/u
-tmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on output//_region_.pdf (9 pages, 4100447 bytes).
+ 73i,11n,101p,688b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dis
+t/fonts/type1/urw/times/utmr8a.pfb>
+Output written on output//_region_.pdf (2 pages, 117650 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 98 compressed objects within 1 object stream
- 29 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 32 PDF objects out of 1000 (max. 8388607)
+ 21 compressed objects within 1 object stream
+ 4 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.24)  7 APR 2024 22:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.24)  9 APR 2024 21:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -967,15 +967,15 @@ e
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(86.72377pt, 440.84746pt, 86.72377pt)
-* v-part:(T,H,B)=(86.72377pt, 621.52245pt, 86.72377pt)
+* h-part:(L,W,R)=(92.47145pt, 449.55374pt, 72.2698pt)
+* v-part:(T,H,B)=(72.2698pt, 650.43037pt, 72.2698pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=440.84746pt
-* \textheight=621.52245pt
-* \oddsidemargin=14.45378pt
-* \evensidemargin=14.45378pt
-* \topmargin=-22.54622pt
+* \textwidth=449.55374pt
+* \textheight=650.43037pt
+* \oddsidemargin=20.20146pt
+* \evensidemargin=20.20146pt
+* \topmargin=-37.00018pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -1045,11 +1045,11 @@ Package hyperref Info: Link coloring ON on input line 38.
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-<../images/jain logo.png, id=96, 1107.13625pt x 320.19624pt>
+<../images/jain logo.png, id=100, 1107.13625pt x 320.19624pt>
 File: ../images/jain logo.png Graphic file (type png)
 <use ../images/jain logo.png>
 Package pdftex.def Info: ../images/jain logo.png  used on input line 44.
-(pdftex.def)             Requested size: 176.33452pt x 52.8985pt.
+(pdftex.def)             Requested size: 179.81459pt x 53.94405pt.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
@@ -1060,14 +1060,14 @@ Package pdftex.def Info: ../images/jain logo.png  used on input line 44.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
+* h-part:(L,W,R)=(85.35826pt, 486.25761pt, 42.67912pt)
 * v-part:(T,H,B)=(28.45274pt, 738.0645pt, 28.45274pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=500.484pt
+* \textwidth=486.25761pt
 * \textheight=738.0645pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
 * \topmargin=-80.81725pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -1089,7 +1089,7 @@ Package pdftex.def Info: ../images/jain logo.png  used on input line 44.
 File: ../images/jain logo.png Graphic file (type png)
 <use ../images/jain logo.png>
 Package pdftex.def Info: ../images/jain logo.png  used on input line 9.
-(pdftex.def)             Requested size: 200.18817pt x 60.0513pt.
+(pdftex.def)             Requested size: 194.49506pt x 58.34616pt.
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
  20.
 
@@ -1114,13 +1114,19 @@ LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
 (/usr/share/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
-<images/tanmoy_sign.png, id=106, 170.13562pt x 48.93282pt>
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
+
+Overfull \hbox (2.05376pt too wide) in paragraph at lines 34--38
+ \OT1/ptm/m/n/12 This to fur-ther cer-tify that the work re-ported herein does 
+not form a part of any other the-sis/dissertation,
+ []
+
+<images/tanmoy_sign.png, id=110, 170.13562pt x 48.93282pt>
 File: images/tanmoy_sign.png Graphic file (type png)
 <use images/tanmoy_sign.png>
 Package pdftex.def Info: images/tanmoy_sign.png  used on input line 48.
@@ -1132,7 +1138,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 53.
 
-Overfull \hbox (3.28325pt too wide) in paragraph at lines 53--60
+Overfull \hbox (17.50963pt too wide) in paragraph at lines 53--60
  [] 
  []
 
@@ -1143,23 +1149,36 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
+<images/sign.png, id=117, 500.87125pt x 501.875pt>
+File: images/sign.png Graphic file (type png)
+<use images/sign.png>
+Package pdftex.def Info: images/sign.png  used on input line 24.
+(pdftex.def)             Requested size: 62.60875pt x 62.7342pt.
 ) [3
 
-] (./acknowledgements.tex
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
+ <./images/sign.png>]
+(./acknowledgements.tex
+File: images/sign.png Graphic file (type png)
+<use images/sign.png>
+Package pdftex.def Info: images/sign.png  used on input line 44.
+(pdftex.def)             Requested size: 62.60875pt x 62.7342pt.
+ [4]) (./undertaking.tex
+File: images/sign.png Graphic file (type png)
+<use images/sign.png>
+Package pdftex.def Info: images/sign.png  used on input line 24.
+(pdftex.def)             Requested size: 62.60875pt x 62.7342pt.
+) [5
 
- []
-
-) [4] (./undertaking.tex) [5] (output//main.toc)
+] (output//main.toc)
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [6] (output//main.lof)
+
+[6] (output//main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
-
-[7] (./abbreviations.tex) [8] (./abstract.tex
+ [7] (./abbreviations.tex) [8] (./abstract.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
@@ -1204,11 +1223,11 @@ been already used, duplicate ignored
                    \relax 
 l.32 
       [2]
-<images/structure_of_sun.jpg, id=212, 903.375pt x 642.4pt>
+<images/structure_of_sun.jpg, id=223, 903.375pt x 642.4pt>
 File: images/structure_of_sun.jpg Graphic file (type jpg)
 <use images/structure_of_sun.jpg>
 Package pdftex.def Info: images/structure_of_sun.jpg  used on input line 35.
-(pdftex.def)             Requested size: 220.42372pt x 156.74733pt.
+(pdftex.def)             Requested size: 224.77687pt x 159.83502pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1225,11 +1244,11 @@ been already used, duplicate ignored
                    \relax 
 l.45 
       [3 <./images/structure_of_sun.jpg>]
-<images/corona.jpg, id=217, 187.902pt x 185.0112pt>
+<images/corona.jpg, id=228, 187.902pt x 185.0112pt>
 File: images/corona.jpg Graphic file (type jpg)
 <use images/corona.jpg>
 Package pdftex.def Info: images/corona.jpg  used on input line 48.
-(pdftex.def)             Requested size: 220.42372pt x 217.04376pt.
+(pdftex.def)             Requested size: 224.77687pt x 221.32915pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1246,28 +1265,26 @@ been already used, duplicate ignored
                    \relax 
 l.58 
       [4 <./images/corona.jpg>]
-<images/solar_flare_4_aug_2011.png, id=227, 281.49165pt x 281.49165pt>
+<images/solar_flare_4_aug_2011.png, id=238, 281.49165pt x 281.49165pt>
 File: images/solar_flare_4_aug_2011.png Graphic file (type png)
 <use images/solar_flare_4_aug_2011.png>
 Package pdftex.def Info: images/solar_flare_4_aug_2011.png  used on input line 
 61.
-(pdftex.def)             Requested size: 220.42372pt x 220.42593pt.
+(pdftex.def)             Requested size: 224.77687pt x 224.78127pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
-<images/195_Filament.png, id=228, 433.62pt x 433.62pt>
+<images/195_Filament.png, id=239, 433.62pt x 433.62pt>
 File: images/195_Filament.png Graphic file (type png)
 <use images/195_Filament.png>
 Package pdftex.def Info: images/195_Filament.png  used on input line 69.
-(pdftex.def)             Requested size: 220.42372pt x 220.42207pt.
-<images/prominence.jpg, id=229, 527.9725pt x 527.9725pt>
+(pdftex.def)             Requested size: 224.77687pt x 224.77573pt.
+<images/prominence.jpg, id=240, 527.9725pt x 527.9725pt>
 File: images/prominence.jpg Graphic file (type jpg)
 <use images/prominence.jpg>
 Package pdftex.def Info: images/prominence.jpg  used on input line 76.
-(pdftex.def)             Requested size: 220.42372pt x 220.41766pt.
+(pdftex.def)             Requested size: 224.77687pt x 224.77606pt.
 
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 67--80
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 67--80
 [][]  [] 
  []
 
@@ -1286,13 +1303,13 @@ been already used, duplicate ignored
                    \relax 
 l.91 
       [5 <./images/solar_flare_4_aug_2011.png>]
-<images/stellar_cme_energy_mass_relation.png, id=246, 1608.0075pt x 561.59813pt
+<images/stellar_cme_energy_mass_relation.png, id=256, 1608.0075pt x 561.59813pt
 >
 File: images/stellar_cme_energy_mass_relation.png Graphic file (type png)
 <use images/stellar_cme_energy_mass_relation.png>
 Package pdftex.def Info: images/stellar_cme_energy_mass_relation.png  used on i
 nput line 94.
-(pdftex.def)             Requested size: 440.84746pt x 153.96436pt.
+(pdftex.def)             Requested size: 449.55374pt x 157.00645pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1309,11 +1326,11 @@ been already used, duplicate ignored
                    \relax 
 l.103 
        [6 <./images/195_Filament.png> <./images/prominence.jpg>]
-<images/dimming_211.png, id=260, 339.54855pt x 339.669pt>
+<images/dimming_211.png, id=272, 339.54855pt x 339.669pt>
 File: images/dimming_211.png Graphic file (type png)
 <use images/dimming_211.png>
 Package pdftex.def Info: images/dimming_211.png  used on input line 108.
-(pdftex.def)             Requested size: 132.25557pt x 132.29933pt.
+(pdftex.def)             Requested size: 134.8675pt x 134.91153pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 109.
 
@@ -1323,44 +1340,44 @@ LaTeX Warning: Command \r invalid in math mode on input line 109.
 
 LaTeX Warning: Command \r invalid in math mode on input line 109.
 
-<images/dimming_94.png, id=261, 339.54855pt x 339.669pt>
+<images/dimming_94.png, id=273, 339.54855pt x 339.669pt>
 File: images/dimming_94.png Graphic file (type png)
 <use images/dimming_94.png>
 Package pdftex.def Info: images/dimming_94.png  used on input line 115.
-(pdftex.def)             Requested size: 132.25557pt x 132.29933pt.
+(pdftex.def)             Requested size: 134.8675pt x 134.91153pt.
 
 LaTeX Warning: Command \r invalid in math mode on input line 116.
 
 
 LaTeX Warning: Command \r invalid in math mode on input line 116.
 
-<images/dimming_131.png, id=262, 339.54855pt x 339.669pt>
+<images/dimming_131.png, id=274, 339.54855pt x 339.669pt>
 File: images/dimming_131.png Graphic file (type png)
 <use images/dimming_131.png>
 Package pdftex.def Info: images/dimming_131.png  used on input line 122.
-(pdftex.def)             Requested size: 132.25557pt x 132.29933pt.
+(pdftex.def)             Requested size: 134.8675pt x 134.91153pt.
 
 LaTeX Warning: Command \r invalid in math mode on input line 123.
 
 
 LaTeX Warning: Command \r invalid in math mode on input line 123.
 
-<images/dimming_171.png, id=263, 339.54855pt x 339.669pt>
+<images/dimming_171.png, id=275, 339.54855pt x 339.669pt>
 File: images/dimming_171.png Graphic file (type png)
 <use images/dimming_171.png>
 Package pdftex.def Info: images/dimming_171.png  used on input line 130.
-(pdftex.def)             Requested size: 132.25557pt x 132.29933pt.
+(pdftex.def)             Requested size: 134.8675pt x 134.91153pt.
 
 LaTeX Warning: Command \r invalid in math mode on input line 131.
 
 
 LaTeX Warning: Command \r invalid in math mode on input line 131.
 
-<images/dimming_193.png, id=264, 339.54855pt x 339.669pt>
+<images/dimming_193.png, id=276, 339.54855pt x 339.669pt>
 File: images/dimming_193.png Graphic file (type png)
 <use images/dimming_193.png>
 Package pdftex.def Info: images/dimming_193.png  used on input line 137.
-(pdftex.def)             Requested size: 132.25557pt x 132.29933pt.
+(pdftex.def)             Requested size: 134.8675pt x 134.91153pt.
 
 LaTeX Warning: Command \r invalid in math mode on input line 138.
 
@@ -1370,28 +1387,12 @@ LaTeX Warning: Command \r invalid in math mode on input line 138.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/spacecraft_detailed.jpg, id=265, 526.96875pt x 651.43375pt>
+<images/spacecraft_detailed.jpg, id=277, 526.96875pt x 651.43375pt>
 File: images/spacecraft_detailed.jpg Graphic file (type jpg)
 <use images/spacecraft_detailed.jpg>
 Package pdftex.def Info: images/spacecraft_detailed.jpg  used on input line 150
 .
-(pdftex.def)             Requested size: 220.42372pt x 272.48701pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.154 \end{figure}
-                   [7 <./images/stellar_cme_energy_mass_relation.png (PNG copy)
->]
+(pdftex.def)             Requested size: 224.77687pt x 277.87453pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1409,36 +1410,51 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has 
+pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.157 
-       [8 <./images/dimming_211.png> <./images/dimming_94.png> <./images/dimmin
-g_131.png> <./images/dimming_171.png> <./images/dimming_193.png>]
+       [7 <./images/stellar_cme_energy_mass_relation.png (PNG copy)>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/SDO AIA Telescopes.jpg, id=289, 722.7pt x 483.8075pt>
+<images/SDO AIA Telescopes.jpg, id=291, 722.7pt x 483.8075pt>
 File: images/SDO AIA Telescopes.jpg Graphic file (type jpg)
 <use images/SDO AIA Telescopes.jpg>
 Package pdftex.def Info: images/SDO AIA Telescopes.jpg  used on input line 194.
 
-(pdftex.def)             Requested size: 220.42372pt x 147.55737pt.
-<images/AIA_telescope_layout.png, id=290, 1240.635pt x 694.09312pt>
+(pdftex.def)             Requested size: 224.77687pt x 150.47339pt.
+<images/AIA_telescope_layout.png, id=292, 1240.635pt x 694.09312pt>
 File: images/AIA_telescope_layout.png Graphic file (type png)
 <use images/AIA_telescope_layout.png>
 Package pdftex.def Info: images/AIA_telescope_layout.png  used on input line 20
 1.
-(pdftex.def)             Requested size: 220.42372pt x 123.31094pt.
+(pdftex.def)             Requested size: 224.77687pt x 125.74687pt.
 
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 192--206
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 192--206
 [][]  []
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.210 
+       [8 <./images/dimming_211.png> <./images/dimming_94.png> <./images/dimmin
+g_131.png> <./images/dimming_171.png> <./images/dimming_193.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1454,16 +1470,16 @@ LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 2
 (/usr/share/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Overfull \hbox (15.75015pt too wide) in paragraph at lines 211--212
+Overfull \hbox (7.04387pt too wide) in paragraph at lines 211--212
 \OT1/ptm/m/n/12 Figure [][]9[][] shows the re-sponse curves, which has been ob-
 tained us-ing \OT1/pcr/m/n/12 aia[]get[]response.pro
  []
 
-<images/aia_tresp.png, id=307, 462.528pt x 346.896pt>
+<images/aia_tresp.png, id=317, 462.528pt x 346.896pt>
 File: images/aia_tresp.png Graphic file (type png)
 <use images/aia_tresp.png>
 Package pdftex.def Info: images/aia_tresp.png  used on input line 215.
-(pdftex.def)             Requested size: 330.63559pt x 247.9864pt.
+(pdftex.def)             Requested size: 337.1653pt x 252.88791pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1485,16 +1501,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [10 <./images/SDO AIA Telescopes.jpg> <./images/AIA_telescope_layout.png (PNG c
-opy)>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[11 <./images/aia_tresp.png>]) (./methodology.tex
+opy)>]) (./methodology.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -1507,68 +1514,90 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+[11 <./images/aia_tresp.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
 [12]
+
+LaTeX Warning: Command \r invalid in math mode on input line 15.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-<images/aug_31_2012_event_sun_earth_image.jpg, id=351, 1927.2pt x 1204.5pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+<images/aug_31_2012_event_sun_earth_image.jpg, id=362, 1927.2pt x 1204.5pt>
 File: images/aug_31_2012_event_sun_earth_image.jpg Graphic file (type jpg)
 <use images/aug_31_2012_event_sun_earth_image.jpg>
 Package pdftex.def Info: images/aug_31_2012_event_sun_earth_image.jpg  used on 
 input line 25.
-(pdftex.def)             Requested size: 220.42372pt x 137.75185pt.
+(pdftex.def)             Requested size: 224.77687pt x 140.47197pt.
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[13]
 Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-<images/soho_cme_aug_04_2011.png, id=363, 513.92pt x 513.92pt>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13 <./images/aug_31_2012_event_sun_earth_image.jpg>]
+<images/soho_cme_aug_04_2011.png, id=375, 513.92pt x 513.92pt>
 File: images/soho_cme_aug_04_2011.png Graphic file (type png)
 <use images/soho_cme_aug_04_2011.png>
 Package pdftex.def Info: images/soho_cme_aug_04_2011.png  used on input line 37
 .
-(pdftex.def)             Requested size: 132.25557pt x 132.25157pt.
-<images/soho_cme_aug_31_2012.png, id=364, 513.92pt x 513.92pt>
+(pdftex.def)             Requested size: 134.8675pt x 134.87073pt.
+<images/soho_cme_aug_31_2012.png, id=376, 513.92pt x 513.92pt>
 File: images/soho_cme_aug_31_2012.png Graphic file (type png)
 <use images/soho_cme_aug_31_2012.png>
 Package pdftex.def Info: images/soho_cme_aug_31_2012.png  used on input line 43
 .
-(pdftex.def)             Requested size: 132.25557pt x 132.25157pt.
-<images/soho_cme_oct_28_2021.png, id=365, 513.92pt x 513.92pt>
+(pdftex.def)             Requested size: 134.8675pt x 134.87073pt.
+<images/soho_cme_oct_28_2021.png, id=377, 513.92pt x 513.92pt>
 File: images/soho_cme_oct_28_2021.png Graphic file (type png)
 <use images/soho_cme_oct_28_2021.png>
 Package pdftex.def Info: images/soho_cme_oct_28_2021.png  used on input line 49
 .
-(pdftex.def)             Requested size: 132.25557pt x 132.25157pt.
-<images/soho_cme_aug_04_2011_aia193.png, id=366, 513.92pt x 513.92pt>
+(pdftex.def)             Requested size: 134.8675pt x 134.87073pt.
+<images/soho_cme_aug_04_2011_aia193.png, id=378, 513.92pt x 513.92pt>
 File: images/soho_cme_aug_04_2011_aia193.png Graphic file (type png)
 <use images/soho_cme_aug_04_2011_aia193.png>
 Package pdftex.def Info: images/soho_cme_aug_04_2011_aia193.png  used on input 
 line 60.
-(pdftex.def)             Requested size: 132.25557pt x 132.25157pt.
-<images/soho_cme_aug_31_2012_aia193.png, id=367, 513.92pt x 513.92pt>
+(pdftex.def)             Requested size: 134.8675pt x 134.87073pt.
+<images/soho_cme_aug_31_2012_aia193.png, id=379, 513.92pt x 513.92pt>
 File: images/soho_cme_aug_31_2012_aia193.png Graphic file (type png)
 <use images/soho_cme_aug_31_2012_aia193.png>
 Package pdftex.def Info: images/soho_cme_aug_31_2012_aia193.png  used on input 
 line 66.
-(pdftex.def)             Requested size: 132.25557pt x 132.25157pt.
-<images/soho_cme_oct_28_2021_aia193.png, id=368, 513.92pt x 513.92pt>
+(pdftex.def)             Requested size: 134.8675pt x 134.87073pt.
+<images/soho_cme_oct_28_2021_aia193.png, id=380, 513.92pt x 513.92pt>
 File: images/soho_cme_oct_28_2021_aia193.png Graphic file (type png)
 <use images/soho_cme_oct_28_2021_aia193.png>
 Package pdftex.def Info: images/soho_cme_oct_28_2021_aia193.png  used on input 
 line 72.
-(pdftex.def)             Requested size: 132.25557pt x 132.25157pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+(pdftex.def)             Requested size: 134.8675pt x 134.87073pt.
 
 
 LaTeX Warning: Command \r invalid in math mode on input line 83.
@@ -1596,9 +1625,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[14 <./images/aug_31_2012_event_sun_earth_image.jpg> <./images/soho_cme_aug_04_
-2011.png> <./images/soho_cme_aug_31_2012.png> <./images/soho_cme_oct_28_2021.pn
-g>]
+[14 <./images/soho_cme_aug_04_2011.png> <./images/soho_cme_aug_31_2012.png> <./
+images/soho_cme_oct_28_2021.png> <./images/soho_cme_aug_04_2011_aia193.png> <./
+images/soho_cme_aug_31_2012_aia193.png> <./images/soho_cme_oct_28_2021_aia193.p
+ng>]
 Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
@@ -1611,12 +1641,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[15 <./images/soho_cme_aug_04_2011_aia193.png> <./images/soho_cme_aug_31_2012_a
-ia193.png> <./images/soho_cme_oct_28_2021_aia193.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
-
- []
-
+[15]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1626,6 +1651,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [16]
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1635,13 +1664,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [17]
-Overfull \hbox (1.43243pt too wide) in paragraph at lines 139--140
-\OT1/ptm/m/n/12 From $\OML/ztmcm/m/it/12 DEM$\OT1/ptm/m/n/12 , pa-ram-e-ters li
-ke plasma den-sity, ther-mal X-ray flux, ther-mal en-ergy and weighted
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
 
  []
 
@@ -1654,42 +1677,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 150--151
-
- []
-
-<images/dem_img_aug_4_2011.png, id=419, 439.28114pt x 575.14874pt>
+<images/dem_img_aug_4_2011.png, id=433, 439.28114pt x 575.14874pt>
 File: images/dem_img_aug_4_2011.png Graphic file (type png)
 <use images/dem_img_aug_4_2011.png>
-Package pdftex.def Info: images/dem_img_aug_4_2011.png  used on input line 154.
+Package pdftex.def Info: images/dem_img_aug_4_2011.png  used on input line 150.
 
-(pdftex.def)             Requested size: 220.42372pt x 288.60046pt.
+(pdftex.def)             Requested size: 224.77687pt x 294.3049pt.
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[19]
-<images/ps_plus_full_disk.png, id=428, 476.982pt x 256.91985pt>
-File: images/ps_plus_full_disk.png Graphic file (type png)
-<use images/ps_plus_full_disk.png>
-Package pdftex.def Info: images/ps_plus_full_disk.png  used on input line 161.
-(pdftex.def)             Requested size: 418.80373pt x 225.58835pt.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 162.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 162.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
@@ -1701,41 +1696,50 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[20 <./images/dem_img_aug_4_2011.png>]) (./results.tex
-<images/dem_ts_aug_04_2011.png, id=438, 1084.05pt x 361.35pt>
+[19 <./images/dem_img_aug_4_2011.png>]
+<images/ps_plus_full_disk.png, id=440, 476.982pt x 256.91985pt>
+File: images/ps_plus_full_disk.png Graphic file (type png)
+<use images/ps_plus_full_disk.png>
+Package pdftex.def Info: images/ps_plus_full_disk.png  used on input line 159.
+(pdftex.def)             Requested size: 427.07468pt x 230.04178pt.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 160.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 160.
+
+) (./results.tex
+<images/dem_ts_aug_04_2011.png, id=444, 1084.05pt x 361.35pt>
 File: images/dem_ts_aug_04_2011.png Graphic file (type png)
 <use images/dem_ts_aug_04_2011.png>
 Package pdftex.def Info: images/dem_ts_aug_04_2011.png  used on input line 7.
-(pdftex.def)             Requested size: 440.84746pt x 146.94695pt.
+(pdftex.def)             Requested size: 449.55374pt x 149.85269pt.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-<images/dem_ts_aug_31_2012.png, id=439, 1084.05pt x 361.35pt>
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20 <./images/ps_plus_full_disk.png>]
+<images/dem_ts_aug_31_2012.png, id=450, 1084.05pt x 361.35pt>
 File: images/dem_ts_aug_31_2012.png Graphic file (type png)
 <use images/dem_ts_aug_31_2012.png>
 Package pdftex.def Info: images/dem_ts_aug_31_2012.png  used on input line 14.
-(pdftex.def)             Requested size: 440.84746pt x 146.94695pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/dem_ts_oct_28_2021.png, id=440, 1084.05pt x 361.35pt>
+(pdftex.def)             Requested size: 449.55374pt x 149.85269pt.
+<images/dem_ts_oct_28_2021.png, id=451, 1084.05pt x 361.35pt>
 File: images/dem_ts_oct_28_2021.png Graphic file (type png)
 <use images/dem_ts_oct_28_2021.png>
 Package pdftex.def Info: images/dem_ts_oct_28_2021.png  used on input line 21.
-(pdftex.def)             Requested size: 440.84746pt x 146.94695pt.
+(pdftex.def)             Requested size: 449.55374pt x 149.85269pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
+ []
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[21 <./images/ps_plus_full_disk.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1744,7 +1748,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[22 <./images/dem_ts_aug_04_2011.png> <./images/dem_ts_aug_31_2012.png> <./imag
+[21 <./images/dem_ts_aug_04_2011.png> <./images/dem_ts_aug_31_2012.png> <./imag
 es/dem_ts_oct_28_2021.png>]
 > Step: init table outer spec.
 > Step: parse table options.
@@ -1755,87 +1759,91 @@ es/dem_ts_oct_28_2021.png>]
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
-<images/dem_profile_before_event_2011_aug_04.png, id=458, 460.3599pt x 320.0356
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22]
+<images/dem_profile_before_event_2011_aug_04.png, id=471, 460.3599pt x 320.0356
 4pt>
 File: images/dem_profile_before_event_2011_aug_04.png Graphic file (type png)
 <use images/dem_profile_before_event_2011_aug_04.png>
 Package pdftex.def Info: images/dem_profile_before_event_2011_aug_04.png  used 
-on input line 59.
-(pdftex.def)             Requested size: 132.25557pt x 91.9436pt.
-<images/dem_profile_during_event_2011_aug_04.png, id=459, 460.3599pt x 320.0356
+on input line 61.
+(pdftex.def)             Requested size: 134.8675pt x 93.76021pt.
+<images/dem_profile_during_event_2011_aug_04.png, id=472, 460.3599pt x 320.0356
 4pt>
 File: images/dem_profile_during_event_2011_aug_04.png Graphic file (type png)
 <use images/dem_profile_during_event_2011_aug_04.png>
 Package pdftex.def Info: images/dem_profile_during_event_2011_aug_04.png  used 
-on input line 65.
-(pdftex.def)             Requested size: 132.25557pt x 91.9436pt.
-<images/dem_profile_after_event_2011_aug_04.png, id=460, 460.3599pt x 320.03564
+on input line 68.
+(pdftex.def)             Requested size: 134.8675pt x 93.76021pt.
+<images/dem_profile_after_event_2011_aug_04.png, id=473, 460.3599pt x 320.03564
 pt>
 File: images/dem_profile_after_event_2011_aug_04.png Graphic file (type png)
 <use images/dem_profile_after_event_2011_aug_04.png>
 Package pdftex.def Info: images/dem_profile_after_event_2011_aug_04.png  used o
-n input line 72.
-(pdftex.def)             Requested size: 132.25557pt x 91.9436pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[23]
-<images/dem_profile_before_event_2012_aug_31.png, id=469, 460.23946pt x 320.035
+n input line 75.
+(pdftex.def)             Requested size: 134.8675pt x 93.76021pt.
+<images/dem_profile_before_event_2012_aug_31.png, id=474, 460.23946pt x 320.035
 64pt>
 File: images/dem_profile_before_event_2012_aug_31.png Graphic file (type png)
 <use images/dem_profile_before_event_2012_aug_31.png>
 Package pdftex.def Info: images/dem_profile_before_event_2012_aug_31.png  used 
-on input line 84.
-(pdftex.def)             Requested size: 132.25557pt x 91.96313pt.
-<images/dem_profile_during_event_2012_aug_31.png, id=470, 460.23946pt x 320.035
+on input line 88.
+(pdftex.def)             Requested size: 134.8675pt x 93.77974pt.
+<images/dem_profile_during_event_2012_aug_31.png, id=475, 460.23946pt x 320.035
 64pt>
 File: images/dem_profile_during_event_2012_aug_31.png Graphic file (type png)
 <use images/dem_profile_during_event_2012_aug_31.png>
 Package pdftex.def Info: images/dem_profile_during_event_2012_aug_31.png  used 
-on input line 90.
-(pdftex.def)             Requested size: 132.25557pt x 91.96313pt.
-<images/dem_profile_after_event_2012_aug_31.png, id=471, 460.23946pt x 320.0356
+on input line 95.
+(pdftex.def)             Requested size: 134.8675pt x 93.77974pt.
+<images/dem_profile_after_event_2012_aug_31.png, id=476, 460.23946pt x 320.0356
 4pt>
 File: images/dem_profile_after_event_2012_aug_31.png Graphic file (type png)
 <use images/dem_profile_after_event_2012_aug_31.png>
 Package pdftex.def Info: images/dem_profile_after_event_2012_aug_31.png  used o
-n input line 97.
-(pdftex.def)             Requested size: 132.25557pt x 91.96313pt.
-<images/dem_profile_before_event_2021_oct_28.png, id=472, 453.8556pt x 320.0356
+n input line 102.
+(pdftex.def)             Requested size: 134.8675pt x 93.77974pt.
+<images/dem_profile_before_event_2021_oct_28.png, id=477, 453.8556pt x 320.0356
 4pt>
 File: images/dem_profile_before_event_2021_oct_28.png Graphic file (type png)
 <use images/dem_profile_before_event_2021_oct_28.png>
 Package pdftex.def Info: images/dem_profile_before_event_2021_oct_28.png  used 
-on input line 109.
-(pdftex.def)             Requested size: 132.25557pt x 93.25722pt.
-<images/dem_profile_during_event_2021_oct_28.png, id=473, 453.8556pt x 320.0356
+on input line 115.
+(pdftex.def)             Requested size: 134.8675pt x 95.10312pt.
+<images/dem_profile_during_event_2021_oct_28.png, id=478, 453.8556pt x 320.0356
 4pt>
 File: images/dem_profile_during_event_2021_oct_28.png Graphic file (type png)
 <use images/dem_profile_during_event_2021_oct_28.png>
 Package pdftex.def Info: images/dem_profile_during_event_2021_oct_28.png  used 
-on input line 115.
-(pdftex.def)             Requested size: 132.25557pt x 93.25722pt.
-<images/dem_profile_after_event_2021_oct_28.png, id=474, 453.8556pt x 320.03564
+on input line 122.
+(pdftex.def)             Requested size: 134.8675pt x 95.10312pt.
+<images/dem_profile_after_event_2021_oct_28.png, id=479, 453.8556pt x 320.03564
 pt>
 File: images/dem_profile_after_event_2021_oct_28.png Graphic file (type png)
 <use images/dem_profile_after_event_2021_oct_28.png>
 Package pdftex.def Info: images/dem_profile_after_event_2021_oct_28.png  used o
-n input line 121.
-(pdftex.def)             Requested size: 132.25557pt x 93.25722pt.
+n input line 129.
+(pdftex.def)             Requested size: 134.8675pt x 95.10312pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1845,13 +1853,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[24 <./images/dem_profile_before_event_2011_aug_04.png> <./images/dem_profile_d
+[23 <./images/dem_profile_before_event_2011_aug_04.png> <./images/dem_profile_d
 uring_event_2011_aug_04.png> <./images/dem_profile_after_event_2011_aug_04.png>
  <./images/dem_profile_before_event_2012_aug_31.png> <./images/dem_profile_duri
 ng_event_2012_aug_31.png> <./images/dem_profile_after_event_2012_aug_31.png> <.
 /images/dem_profile_before_event_2021_oct_28.png> <./images/dem_profile_during_
 event_2021_oct_28.png> <./images/dem_profile_after_event_2021_oct_28.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
@@ -1863,26 +1881,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[25])
+[24])
 
-./main.tex:121: LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.121 
-      
-You may provide a definition with
-\DeclareUnicodeCharacter 
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+[25] (./publications_and_conferences.tex
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
+.
 
-Overfull \hbox (1.40349pt too wide) in paragraph at lines 121--121
-[][]\OT1/ptm/m/n/10 Athiray, P. S., & Winebarger, A. R. (2024). Can emis-sion m
-ea-sure dis-tri-bu-tions de-rived from extreme-ultraviolet
- []
+(/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+./publications_and_conferences.tex:9: Misplaced alignment tab character &.
+l.9 ...n International Journal of Plant Research &
+                                                   Biotechnology. The paper ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1893,27 +1918,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [26]
 
-./main.tex:121: LaTeX Error: Unicode character α (U+03B1)
+./main.tex:125: LaTeX Error: Unicode character − (U+2212)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.121 
-      
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./main.tex:121: LaTeX Error: Unicode character α (U+03B1)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.121 
+l.125 
       
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1927,6 +1939,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [27]
+
+./main.tex:125: LaTeX Error: Unicode character α (U+03B1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.125 
+      
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./main.tex:125: LaTeX Error: Unicode character α (U+03B1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.125 
+      
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1945,17 +1983,17 @@ L3 programming layer <2024-02-20>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1924E1A454A0DE0A3B9D1F2869FBC496;3233.
+(rerunfilecheck)             Checksum: D7870CE185FE99A9E3992B6BED649C7E;3423.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29227 strings out of 476076
- 597936 string characters out of 5793775
- 1949187 words of memory out of 5000000
- 50856 multiletter control sequences out of 15000+600000
- 624744 words of font info for 167 fonts, out of 8000000 for 9000
+ 29297 strings out of 476076
+ 599693 string characters out of 5793775
+ 1948187 words of memory out of 5000000
+ 50918 multiletter control sequences out of 15000+600000
+ 622773 words of font info for 162 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  73i,12n,102p,2237b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/
@@ -1967,10 +2005,10 @@ msy10.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share
 urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></u
 sr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on output//main.pdf (36 pages, 49688059 bytes).
+Output written on output//main.pdf (36 pages, 49774496 bytes).
 PDF statistics:
- 608 PDF objects out of 1000 (max. 8388607)
- 467 compressed objects within 5 object streams
- 111 named destinations out of 1000 (max. 500000)
- 375 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 620 PDF objects out of 1000 (max. 8388607)
+ 477 compressed objects within 5 object streams
+ 114 named destinations out of 1000 (max. 500000)
+ 388 words of extra memory for PDF output out of 10000 (max. 10000000)
 

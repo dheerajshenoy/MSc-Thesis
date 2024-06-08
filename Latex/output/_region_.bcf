@@ -3059,18 +3059,6 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">Massa2023</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">Mason2016</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">Klein2022</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">Massa2023</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">Su2018-fq</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">Namekata2023-rq</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">Cheung2015</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">Plowman2013</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">Morgan2019</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">Hannah2012</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">Massa2023</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">Massa2023</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
